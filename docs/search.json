@@ -1,0 +1,163 @@
+[
+  {
+    "objectID": "syllabus.html",
+    "href": "syllabus.html",
+    "title": "AI Interpretability & AI Risk",
+    "section": "",
+    "text": "Organizers\nWill Fithian & Wes Holliday\n\n\nMeeting Time\n[Day], [Time]\n\n\nLocation\n[Building, Room Number]"
+  },
+  {
+    "objectID": "syllabus.html#course-information",
+    "href": "syllabus.html#course-information",
+    "title": "AI Interpretability & AI Risk",
+    "section": "",
+    "text": "Instructor\n[Instructor Name]\n\n\nEmail\n[instructor@berkeley.edu]\n\n\nMeeting Time\n[Day], [Time]\n\n\nLocation\n[Building, Room Number]\n\n\nOffice Hours\n[Day/Time] or by appointment\n\n\nCredits\n[X units, S/U or letter grade]"
+  },
+  {
+    "objectID": "syllabus.html#course-description",
+    "href": "syllabus.html#course-description",
+    "title": "AI Interpretability & AI Risk",
+    "section": "Course Description",
+    "text": "Course Description\nThis reading group brings together researchers from multiple disciplines to develop a shared, rigorous understanding of AI interpretability—both as a scientific enterprise and as a potential tool for managing the risks posed by increasingly capable AI systems.\nThe group emphasizes pragmatic mechanistic interpretability: methods that make concrete, testable claims about how models work internally, and that plausibly contribute to oversight, control, and alignment.\nRather than surveying the literature broadly, the course is structured around one substantial reading per week, allowing participants to engage deeply with each work. The readings combine foundational papers that establish shared vocabulary with recent (2023–2025) frontier research on steering, model editing and unlearning, robustness under distribution shift, and the limits of interpretability in the presence of deception."
+  },
+  {
+    "objectID": "syllabus.html#learning-objectives",
+    "href": "syllabus.html#learning-objectives",
+    "title": "AI Interpretability & AI Risk",
+    "section": "Learning Objectives",
+    "text": "Learning Objectives\nBy the end of this course, participants will be able to:\n\nIdentify what kind of explanation an interpretability paper offers\nEvaluate the robustness and validity of interpretability claims\nUnderstand how interpretability research connects to AI safety and alignment\nRecognize open problems and promising research directions\nApply critical reasoning from multiple disciplines (ML, statistics, philosophy, causal inference) to interpretability research"
+  },
+  {
+    "objectID": "syllabus.html#course-structure",
+    "href": "syllabus.html#course-structure",
+    "title": "AI Interpretability & AI Risk",
+    "section": "Course Structure",
+    "text": "Course Structure\nThe course is organized into three sections reflecting a progression from understanding to control to limits:\n\nPart I: Foundations & Orientation (Weeks 1–4) — Conceptual grounding, mechanistic methods, and strategic goals\nPart II: Intervention, Control, and Robustness (Weeks 5–11) — What we can do to models and how to evaluate it\nPart III: Failure Modes, Explanation, and Alignment (Weeks 12–15) — When interpretability breaks and how it fits into AI risk"
+  },
+  {
+    "objectID": "syllabus.html#part-i-foundations-orientation",
+    "href": "syllabus.html#part-i-foundations-orientation",
+    "title": "AI Interpretability & AI Risk",
+    "section": "Part I: Foundations & Orientation",
+    "text": "Part I: Foundations & Orientation\n\nWeek 1 — Framing Interpretability\n\nTowards a Rigorous Science of Interpretable Machine Learning (2017)\n\nFinale Doshi-Velez & Been Kim\n\n\nhttps://arxiv.org/abs/1702.08608\n\n\nIntroduces a taxonomy of interpretability goals, audiences, and evaluation criteria; frames interpretability as an epistemic problem.\n\n\nWeek 2 — Mechanistic Interpretability and Circuits\n\nZoom In: Circuits (2020)\n\nChris Olah et al.\n\n\nhttps://distill.pub/2020/circuits/\n\n\nCanonical introduction to mechanistic interpretability, circuit-based explanations, and feature-level analysis.\n\n\nWeek 3 — Interpretability as a Safety Strategy\nNeel Nanda\n\nA Pragmatic Vision for Interpretability https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability\nHow Can Interpretability Researchers Help AGI Go Well? https://www.alignmentforum.org/posts/MnkeepcGirnJn736j/how-can-interpretability-researchers-help-agi-go-well\n\nAgenda-setting essays that articulate a pragmatic, safety-oriented theory of change for interpretability research.\n\n\nWeek 4 — Causal Intervention in Practice\n\nLocating and Editing Factual Associations in Transformer Language Models (2024)\n\nKevin Meng et al.\n\n\nhttps://arxiv.org/abs/2401.01967\n\n\nA modern example of causal and mechanistic intervention on real language models; bridges theory and practice."
+  },
+  {
+    "objectID": "syllabus.html#part-ii-intervention-control-and-robustness",
+    "href": "syllabus.html#part-ii-intervention-control-and-robustness",
+    "title": "AI Interpretability & AI Risk",
+    "section": "Part II: Intervention, Control, and Robustness",
+    "text": "Part II: Intervention, Control, and Robustness\n\nWeek 5 — Steering Vectors\n\nSteering GPT-2-XL by Adding Directions in Activation Space (2023)\n\nAlexander Turner et al.\n\n\nhttps://arxiv.org/abs/2303.11396\n\n\nIntroduces steering vectors and linear control of model behavior via internal activations.\n\n\nWeek 6 — Stability of Steering\n\nLayer-Wise Stability of Steering Vectors (2024)\n\nLi et al.\n\n\n(Link to be finalized)\n\n\nAnalyzes how steering directions vary across layers, prompts, and contexts; central to robustness and persona sampling.\n\n\nWeek 7 — Machine Unlearning\n\nUnlearning Dangerous Capabilities in Language Models (2024)\n\nVikram Maini et al.\n\n\nhttps://arxiv.org/abs/2301.10728\n\n\nExplores selective forgetting and capability removal, raising deep questions about representation and control.\n\n\nWeek 8 — Latent Knowledge\n\nDiscovering Latent Knowledge in Language Models Without Supervision (2023)\n\nCollin Burns et al.\n\n\nhttps://arxiv.org/abs/2306.11644\n\n\nSeparates what models know from what they say; foundational for oversight and evaluation.\n\n\nWeek 9 — Context-Dependent Representations\n\nPrompted Representations: Context-Dependent Embeddings and Hidden States (2024)\n\nMiller et al.\n\n\n(Link to be finalized)\n\n\nShows how prompts reshape internal representations, challenging assumptions of interpretability robustness.\n\n\nWeek 10 — Evaluating Interpretability Methods\n\nEvaluating Interpretability: A Framework for Benchmarking Methods (2024)\n\nStephen Casper et al.\n\n\nhttps://arxiv.org/abs/2303.16812\n\n\nProposes criteria and benchmarks for determining whether interpretability methods actually work.\n\n\nWeek 11 — Causal Scrubbing\n\nCausal Scrubbing: Interventions for Mechanistic Interpretability (2023)\n\nLawrence Chan et al.\n\n\nhttps://arxiv.org/abs/2301.13163\n\n\nIntroduces a disciplined framework for causal claims in mechanistic interpretability."
+  },
+  {
+    "objectID": "syllabus.html#part-iii-failure-modes-explanation-and-alignment",
+    "href": "syllabus.html#part-iii-failure-modes-explanation-and-alignment",
+    "title": "AI Interpretability & AI Risk",
+    "section": "Part III: Failure Modes, Explanation, and Alignment",
+    "text": "Part III: Failure Modes, Explanation, and Alignment\n\nWeek 12 — Mesa-Optimization and Deceptive Alignment\n\nRisks from Learned Optimization in Advanced ML Systems (2019)\n\nEvan Hubinger et al.\n\n\nhttps://arxiv.org/abs/1906.01820\n\n\nClassic account of mesa-optimization and deceptive alignment; essential for understanding interpretability’s limits.\n\n\nWeek 13 — Interpretability Under Deception\n\nMechanistic Interpretability Can Fail in the Presence of Deception (2024)\n\nBarnett et al.\n\n\n(Link to be finalized)\n\n\nExplores how strategically aware systems could evade or manipulate interpretability tools.\n\n\nWeek 14 — Philosophy of Causal Explanation\n\nMaking Things Happen (2003), selected chapters\n\nJames Woodward\n\n\nPhilosophical grounding for causal explanation and intervention.\n\n\nWeek 15 — Interpretability and Existential Risk\n\nIs Power-Seeking AI an Existential Risk? (2022–2024), selected sections\n\nJoseph Carlsmith\n\n\nhttps://arxiv.org/abs/2206.13353\n\n\nSituates interpretability within alignment, governance, and long-term AI risk."
+  },
+  {
+    "objectID": "syllabus.html#expectations-and-participation",
+    "href": "syllabus.html#expectations-and-participation",
+    "title": "AI Interpretability & AI Risk",
+    "section": "Expectations and Participation",
+    "text": "Expectations and Participation\n\nPreparation\n\nComplete the assigned reading before each session\nCome prepared with questions, critiques, or connections to other work\n\n\n\nDiscussion\n\nActive participation is expected; the value of the group depends on collective engagement\nDiscussions will focus on: What does this paper claim? How do we evaluate those claims? What are the implications for AI safety?\n\n\n\nPresentations (Optional)\n[Each participant will lead discussion for X session(s) during the semester.]\n\n\nFinal Project (Optional)\n[Description of final project requirements, if applicable.]"
+  },
+  {
+    "objectID": "syllabus.html#academic-integrity",
+    "href": "syllabus.html#academic-integrity",
+    "title": "AI Interpretability & AI Risk",
+    "section": "Academic Integrity",
+    "text": "Academic Integrity\nAll participants are expected to uphold the highest standards of academic integrity. When presenting others’ ideas, proper attribution is required."
+  },
+  {
+    "objectID": "syllabus.html#accessibility",
+    "href": "syllabus.html#accessibility",
+    "title": "AI Interpretability & AI Risk",
+    "section": "Accessibility",
+    "text": "Accessibility\nIf you require accommodations, please contact the instructor as early as possible to discuss your needs."
+  },
+  {
+    "objectID": "syllabus.html#contact",
+    "href": "syllabus.html#contact",
+    "title": "AI Interpretability & AI Risk",
+    "section": "Contact",
+    "text": "Contact\nQuestions? Contact Will Fithian (wfithian@berkeley.edu) or Wes Holliday (wesholliday@berkeley.edu)."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AI Interpretability & AI Risk",
+    "section": "",
+    "text": "An interdisciplinary reading group on AI interpretability and its connection to AI safety. We read one substantial paper per week to enable deep engagement rather than surface coverage.\nOrganizers: Will Fithian & Wes Holliday"
+  },
+  {
+    "objectID": "index.html#who-should-join",
+    "href": "index.html#who-should-join",
+    "title": "AI Interpretability & AI Risk",
+    "section": "Who Should Join?",
+    "text": "Who Should Join?\nThis group is designed for PhD students and faculty in Statistics, Computer Science, Philosophy, Neuroscience, and related fields who want to engage seriously with interpretability research and its connection to AI safety.\n\n\nYou’re a Good Fit If You…\n\nWant to understand how AI interpretability connects to safety and alignment\nAre comfortable reading technical ML papers\nBring perspectives from statistics, philosophy, causal inference, or cognitive science\nAre interested in evaluating interpretability claims critically\n\n\n\nYou Don’t Need To…\n\nHave prior interpretability research experience\nBe an expert in deep learning\nHave read the AI safety literature\nCome from a specific department"
+  },
+  {
+    "objectID": "index.html#prerequisites",
+    "href": "index.html#prerequisites",
+    "title": "AI Interpretability & AI Risk",
+    "section": "Prerequisites",
+    "text": "Prerequisites\n\n\nRequired Background\n\nGraduate-level coursework in machine learning, statistics, or a related quantitative field\nFamiliarity with neural networks and transformers (conceptual understanding sufficient)\nComfort reading technical papers\n\n\n\nHelpful But Not Required\n\nExperience with PyTorch or similar frameworks\nBackground in causal inference\nExposure to philosophy of science or explanation\nPrior reading in AI alignment/safety"
+  },
+  {
+    "objectID": "index.html#how-to-participate",
+    "href": "index.html#how-to-participate",
+    "title": "AI Interpretability & AI Risk",
+    "section": "How to Participate",
+    "text": "How to Participate\n\nStep 1: Express Interest\n\nContact the instructor at [instructor@berkeley.edu] with a brief description of your background and interest in the group.\n\nStep 2: Attend the First Meeting\n\nJoin us for the introductory session to learn more about the format and meet other participants. No advance reading required for Week 1.\n\nStep 3: Engage Each Week\n\nComplete one substantial reading per week and come prepared with questions, critiques, or connections to other work. The group thrives on active discussion.\n\n\n\n\n\n\n\n\nTime Commitment\n\n\n\n15 weekly meetings over the semester, plus approximately 2–4 hours of reading per week. We read one paper per week to enable deep engagement rather than surface coverage."
+  },
+  {
+    "objectID": "index.html#what-youll-learn",
+    "href": "index.html#what-youll-learn",
+    "title": "AI Interpretability & AI Risk",
+    "section": "What You’ll Learn",
+    "text": "What You’ll Learn\nThe course is structured in three parts, moving from understanding to control to limits:\n\n\nPart I: Foundations\nWhat is interpretability for? How are mechanistic explanations constructed? What’s a plausible theory of change for interpretability as safety research?\n\n\nPart II: Intervention\nSteering model behavior, editing knowledge, removing capabilities, and evaluating the robustness of these techniques.\n\n\nPart III: Limits\nWhen interpretability fails, how deception undermines oversight, and what counts as genuine explanation.\n\n\n\nTopics Covered\nMechanistic Interpretability • Steering Vectors • Causal Scrubbing • Machine Unlearning • Latent Knowledge • Mesa-Optimization • Deceptive Alignment • AI Governance"
+  },
+  {
+    "objectID": "index.html#meeting-details",
+    "href": "index.html#meeting-details",
+    "title": "AI Interpretability & AI Risk",
+    "section": "Meeting Details",
+    "text": "Meeting Details\n\n\n\nTime\n[Day], [Time]\n\n\nLocation\n[Building, Room Number]\n\n\nFirst Meeting\n[Date]"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "AI Interpretability & AI Risk",
+    "section": "Contact",
+    "text": "Contact\nQuestions? Contact Will Fithian (wfithian@berkeley.edu) or Wes Holliday (wesholliday@berkeley.edu)."
+  },
+  {
+    "objectID": "index.html#reading-schedule",
+    "href": "index.html#reading-schedule",
+    "title": "AI Interpretability & AI Risk",
+    "section": "Reading Schedule",
+    "text": "Reading Schedule\nThe readings progress from understanding to control to limits.\n\nPart I: Foundations & Orientation (Weeks 1–4)\n\n\n\nWeek\nTopic\nReading\n\n\n\n\n1\nFraming Interpretability\nTowards a Rigorous Science of Interpretable Machine Learning — Doshi-Velez & Kim (2017)\n\n\n2\nMechanistic Interpretability\nZoom In: Circuits — Olah et al. (2020)\n\n\n3\nInterpretability as Safety Strategy\nA Pragmatic Vision for Interpretability + How Can Interpretability Researchers Help AGI Go Well? — Nanda (2023)\n\n\n4\nCausal Intervention in Practice\nLocating and Editing Factual Associations in Transformers — Meng et al. (2024)\n\n\n\n\n\nPart II: Intervention, Control, and Robustness (Weeks 5–11)\n\n\n\nWeek\nTopic\nReading\n\n\n\n\n5\nSteering Vectors\nSteering GPT-2-XL by Adding Directions in Activation Space — Turner et al. (2023)\n\n\n6\nStability of Steering\nLayer-Wise Stability of Steering Vectors — Li et al. (2024)\n\n\n7\nMachine Unlearning\nUnlearning Dangerous Capabilities in Language Models — Maini et al. (2024)\n\n\n8\nLatent Knowledge\nDiscovering Latent Knowledge in Language Models Without Supervision — Burns et al. (2023)\n\n\n9\nContext-Dependent Representations\nPrompted Representations — Miller et al. (2024)\n\n\n10\nEvaluating Interpretability\nA Framework for Benchmarking Methods — Casper et al. (2024)\n\n\n11\nCausal Scrubbing\nInterventions for Mechanistic Interpretability — Chan et al. (2023)\n\n\n\n\n\nPart III: Failure Modes, Explanation, and Alignment (Weeks 12–15)\n\n\n\nWeek\nTopic\nReading\n\n\n\n\n12\nMesa-Optimization\nRisks from Learned Optimization in Advanced ML Systems — Hubinger et al. (2019)\n\n\n13\nInterpretability Under Deception\nMechanistic Interpretability Can Fail in the Presence of Deception — Barnett et al. (2024)\n\n\n14\nPhilosophy of Causal Explanation\nMaking Things Happen, selected chapters — Woodward (2003)\n\n\n15\nInterpretability and Existential Risk\nIs Power-Seeking AI an Existential Risk?, selected sections — Carlsmith (2022–2024)\n\n\n\nSee the full syllabus for paper summaries and additional context."
+  },
+  {
+    "objectID": "index.html#about-the-group",
+    "href": "index.html#about-the-group",
+    "title": "AI Interpretability & AI Risk",
+    "section": "About the Group",
+    "text": "About the Group\nThis reading group brings together researchers from Statistics, Computer Science, Philosophy, Neuroscience, and related fields to develop a shared understanding of AI interpretability—both as a scientific enterprise and as a potential tool for managing the risks posed by increasingly capable AI systems.\nWe emphasize pragmatic mechanistic interpretability: methods that make concrete, testable claims about how models work internally, and that plausibly contribute to oversight, control, and alignment.\n\nWhat We’re Looking For\n\nComfort reading technical ML papers\nInterest in evaluating interpretability claims critically\nPerspectives from statistics, philosophy, causal inference, or cognitive science welcome\n\nNo prior interpretability research experience required."
+  },
+  {
+    "objectID": "syllabus.html#group-information",
+    "href": "syllabus.html#group-information",
+    "title": "AI Interpretability & AI Risk",
+    "section": "",
+    "text": "Organizers\nWill Fithian & Wes Holliday\n\n\nMeeting Time\n[Day], [Time]\n\n\nLocation\n[Building, Room Number]"
+  },
+  {
+    "objectID": "syllabus.html#about",
+    "href": "syllabus.html#about",
+    "title": "AI Interpretability & AI Risk",
+    "section": "About",
+    "text": "About\nThis reading group brings together researchers from multiple disciplines to develop a shared, rigorous understanding of AI interpretability—both as a scientific enterprise and as a potential tool for managing the risks posed by increasingly capable AI systems.\nThe group emphasizes pragmatic mechanistic interpretability: methods that make concrete, testable claims about how models work internally, and that plausibly contribute to oversight, control, and alignment.\nRather than surveying the literature broadly, the course is structured around one substantial reading per week, allowing participants to engage deeply with each work. The readings combine foundational papers that establish shared vocabulary with recent (2023–2025) frontier research on steering, model editing and unlearning, robustness under distribution shift, and the limits of interpretability in the presence of deception."
+  }
+]
