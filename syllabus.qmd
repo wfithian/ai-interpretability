@@ -1,6 +1,6 @@
 ---
 title: "AI Interpretability & AI Risk"
-subtitle: "Graduate Reading Group — UC Berkeley — Spring 2025"
+subtitle: "Graduate Reading Group — UC Berkeley — Spring 2026"
 format:
   html:
     theme: cosmo
@@ -75,7 +75,7 @@ The course is organized into three sections reflecting a progression from *under
 - *How Can Interpretability Researchers Help AGI Go Well?*
   <https://www.alignmentforum.org/posts/MnkeepcGirnJn736j/how-can-interpretability-researchers-help-agi-go-well>
 
-*Agenda-setting essays that articulate a pragmatic, safety-oriented theory of change for interpretability research.*
+*Agenda-setting essays (2025) that articulate a pragmatic, safety-oriented theory of change for interpretability research.*
 
 ### Week 4 — Causal Intervention in Practice
 

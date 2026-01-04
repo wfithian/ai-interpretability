@@ -1,6 +1,6 @@
 ---
 title: "AI Interpretability & AI Risk"
-subtitle: "Graduate Reading Group — UC Berkeley — Spring 2025"
+subtitle: "Graduate Reading Group — UC Berkeley — Spring 2026"
 format:
   html:
     theme: cosmo
@@ -26,7 +26,7 @@ The readings progress from *understanding* to *control* to *limits*.
 |------|-------|---------|
 | 1 | Framing Interpretability | [Towards a Rigorous Science of Interpretable Machine Learning](https://arxiv.org/abs/1702.08608) — Doshi-Velez & Kim (2017) |
 | 2 | Mechanistic Interpretability | [Zoom In: Circuits](https://distill.pub/2020/circuits/) — Olah et al. (2020) |
-| 3 | Interpretability as Safety Strategy | [A Pragmatic Vision for Interpretability](https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability) + [How Can Interpretability Researchers Help AGI Go Well?](https://www.alignmentforum.org/posts/MnkeepcGirnJn736j/how-can-interpretability-researchers-help-agi-go-well) — Nanda (2023) |
+| 3 | Interpretability as Safety Strategy | [A Pragmatic Vision for Interpretability](https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability) + [How Can Interpretability Researchers Help AGI Go Well?](https://www.alignmentforum.org/posts/MnkeepcGirnJn736j/how-can-interpretability-researchers-help-agi-go-well) — Nanda (2025) |
 | 4 | Causal Intervention in Practice | [Locating and Editing Factual Associations in Transformers](https://arxiv.org/abs/2401.01967) — Meng et al. (2024) |
 
 ### Part II: Intervention, Control, and Robustness (Weeks 5–11)
