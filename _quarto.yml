@@ -3,7 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: "AI Interpretability & AI Risk"
+  title: "AI Interpretability"
   navbar:
     left:
       - href: index.qmd

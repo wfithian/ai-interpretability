@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>AI Interpretability: Meaning, Methods, and Limitations – AI Interpretability &amp; AI Risk</title>
+<title>AI Interpretability: Meaning, Methods, and Limitations – AI Interpretability</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">AI Interpretability &amp; AI Risk</span>
+    <span class="navbar-title">AI Interpretability</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -116,14 +116,14 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#about" id="toc-about" class="nav-link" data-scroll-target="#about">About</a></li>
   <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning Objectives</a></li>
   <li><a href="#course-structure" id="toc-course-structure" class="nav-link" data-scroll-target="#course-structure">Course Structure</a></li>
-  <li><a href="#part-i-foundations-orientation" id="toc-part-i-foundations-orientation" class="nav-link" data-scroll-target="#part-i-foundations-orientation">Part I: Foundations &amp; Orientation</a>
+  <li><a href="#part-i-meaning-and-orientation" id="toc-part-i-meaning-and-orientation" class="nav-link" data-scroll-target="#part-i-meaning-and-orientation">Part I: Meaning and Orientation</a>
   <ul class="collapse">
   <li><a href="#week-1-framing-interpretability" id="toc-week-1-framing-interpretability" class="nav-link" data-scroll-target="#week-1-framing-interpretability">Week 1 — Framing Interpretability</a></li>
   <li><a href="#week-2-mechanistic-interpretability-and-circuits" id="toc-week-2-mechanistic-interpretability-and-circuits" class="nav-link" data-scroll-target="#week-2-mechanistic-interpretability-and-circuits">Week 2 — Mechanistic Interpretability and Circuits</a></li>
   <li><a href="#week-3-interpretability-as-a-safety-strategy" id="toc-week-3-interpretability-as-a-safety-strategy" class="nav-link" data-scroll-target="#week-3-interpretability-as-a-safety-strategy">Week 3 — Interpretability as a Safety Strategy</a></li>
   <li><a href="#week-4-causal-intervention-in-practice" id="toc-week-4-causal-intervention-in-practice" class="nav-link" data-scroll-target="#week-4-causal-intervention-in-practice">Week 4 — Causal Intervention in Practice</a></li>
   </ul></li>
-  <li><a href="#part-ii-intervention-control-and-robustness" id="toc-part-ii-intervention-control-and-robustness" class="nav-link" data-scroll-target="#part-ii-intervention-control-and-robustness">Part II: Intervention, Control, and Robustness</a>
+  <li><a href="#part-ii-methods-interventions-and-internal-structure" id="toc-part-ii-methods-interventions-and-internal-structure" class="nav-link" data-scroll-target="#part-ii-methods-interventions-and-internal-structure">Part II: Methods, Interventions, and Internal Structure</a>
   <ul class="collapse">
   <li><a href="#week-5-steering-vectors" id="toc-week-5-steering-vectors" class="nav-link" data-scroll-target="#week-5-steering-vectors">Week 5 — Steering Vectors</a></li>
   <li><a href="#week-6-behavioral-directions-and-internal-state-variables" id="toc-week-6-behavioral-directions-and-internal-state-variables" class="nav-link" data-scroll-target="#week-6-behavioral-directions-and-internal-state-variables">Week 6 — Behavioral Directions and Internal State Variables</a></li>
@@ -132,7 +132,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#week-9-causal-scrubbing" id="toc-week-9-causal-scrubbing" class="nav-link" data-scroll-target="#week-9-causal-scrubbing">Week 9 — Causal Scrubbing</a></li>
   <li><a href="#week-10-large-scale-mechanistic-interpretability" id="toc-week-10-large-scale-mechanistic-interpretability" class="nav-link" data-scroll-target="#week-10-large-scale-mechanistic-interpretability">Week 10 — Large-Scale Mechanistic Interpretability</a></li>
   </ul></li>
-  <li><a href="#part-iii-failure-modes-explanation-and-alignment" id="toc-part-iii-failure-modes-explanation-and-alignment" class="nav-link" data-scroll-target="#part-iii-failure-modes-explanation-and-alignment">Part III: Failure Modes, Explanation, and Alignment</a>
+  <li><a href="#part-iii-limits-evaluation-and-stakes" id="toc-part-iii-limits-evaluation-and-stakes" class="nav-link" data-scroll-target="#part-iii-limits-evaluation-and-stakes">Part III: Limits, Evaluation, and Stakes</a>
   <ul class="collapse">
   <li><a href="#week-11-mesa-optimization-and-deceptive-alignment" id="toc-week-11-mesa-optimization-and-deceptive-alignment" class="nav-link" data-scroll-target="#week-11-mesa-optimization-and-deceptive-alignment">Week 11 — Mesa-Optimization and Deceptive Alignment</a></li>
   <li><a href="#week-12-deceptive-interpretability" id="toc-week-12-deceptive-interpretability" class="nav-link" data-scroll-target="#week-12-deceptive-interpretability">Week 12 — Deceptive Interpretability</a></li>
@@ -200,33 +200,38 @@ Tentative Reading List
 </section>
 <section id="about" class="level2">
 <h2 class="anchored" data-anchor-id="about">About</h2>
-<p>This reading group brings together researchers from multiple disciplines to develop a shared, rigorous understanding of AI interpretability—both as a scientific enterprise and as a potential tool for managing the risks posed by increasingly capable AI systems.</p>
-<p>The group emphasizes <em>pragmatic mechanistic interpretability</em>: methods that make concrete, testable claims about how models work internally, and that plausibly contribute to oversight, control, and alignment.</p>
-<p>Rather than surveying the literature broadly, the course is structured around <strong>one substantial reading per week</strong>, allowing participants to engage deeply with each work. The readings combine foundational papers that establish shared vocabulary with recent (2023–2025) frontier research on steering, model editing and unlearning, robustness under distribution shift, and the limits of interpretability in the presence of deception.</p>
+<p>This reading group is organized around a single, demanding question:</p>
+<blockquote class="blockquote">
+<p><strong>What kinds of interpretability claims are meaningful, reliable, and decision-relevant as AI systems become more capable, opaque, and strategically situated?</strong></p>
+</blockquote>
+<p>The course is not a general survey of explainable AI, nor an attempt to catalog interpretability techniques. Instead, it treats interpretability as a <em>scientific and safety-relevant practice</em>: a collection of methods, epistemic standards, and theory-of-change assumptions aimed at gaining traction on the internal structure of modern ML systems in ways that could plausibly matter for oversight, control, and alignment.</p>
+<p>The reading group is intentionally interdisciplinary, bringing together perspectives from machine learning, statistics, causal inference, philosophy of science, cognitive science, and AI governance. A core goal is to establish <strong>shared evaluative standards</strong> across these communities—standards for what counts as evidence, explanation, robustness, and limitation in interpretability research.</p>
 </section>
 <section id="learning-objectives" class="level2">
 <h2 class="anchored" data-anchor-id="learning-objectives">Learning Objectives</h2>
-<p>By the end of this course, participants will be able to:</p>
+<p>By the end of this course, participants should be able to:</p>
 <ol type="1">
-<li><strong>Identify</strong> what kind of explanation an interpretability paper offers</li>
-<li><strong>Evaluate</strong> the robustness and validity of interpretability claims</li>
-<li><strong>Understand</strong> how interpretability research connects to AI safety and alignment</li>
-<li><strong>Recognize</strong> open problems and promising research directions</li>
-<li><strong>Apply</strong> critical reasoning from multiple disciplines (ML, statistics, philosophy, causal inference) to interpretability research</li>
+<li><strong>Distinguish</strong> different senses of “interpretability” and “understanding”</li>
+<li><strong>Evaluate</strong> mechanistic claims in light of causal and robustness criteria</li>
+<li><strong>Recognize</strong> when interpretability evidence is strong, weak, or misleading</li>
+<li><strong>Articulate</strong> realistic theories of change connecting interpretability to AI risk mitigation</li>
 </ol>
+<p>The aim is not consensus, but <strong>shared standards of argument</strong>.</p>
 </section>
 <section id="course-structure" class="level2">
 <h2 class="anchored" data-anchor-id="course-structure">Course Structure</h2>
-<p>The course is organized into three sections reflecting a progression from <em>understanding</em> to <em>control</em> to <em>limits</em>:</p>
+<p>The course follows the arc of its title: <strong>Meaning → Methods → Limitations</strong></p>
+<p>Rather than beginning with philosophical abstraction or ending with technical optimism, the syllabus is designed so that participants <em>earn</em> their skepticism and <em>discipline</em> their ambitions through sustained engagement with concrete research.</p>
 <ul>
-<li><strong>Part I: Foundations &amp; Orientation</strong> (Weeks 1–4) — Conceptual grounding, mechanistic methods, and strategic goals</li>
-<li><strong>Part II: Intervention, Control, and Robustness</strong> (Weeks 5–10) — What we can do to models and how to evaluate it</li>
-<li><strong>Part III: Failure Modes, Explanation, and Alignment</strong> (Weeks 11–15) — When interpretability breaks and how it fits into AI risk</li>
+<li><strong>Part I: Meaning and Orientation</strong> (Weeks 1–4) — What is interpretability for? What kinds of questions can it answer?</li>
+<li><strong>Part II: Methods, Interventions, and Internal Structure</strong> (Weeks 5–10) — What can we actually do with real models?</li>
+<li><strong>Part III: Limits, Evaluation, and Stakes</strong> (Weeks 11–15) — When does interpretability work, and what role should it play in AI risk?</li>
 </ul>
 <hr>
 </section>
-<section id="part-i-foundations-orientation" class="level2">
-<h2 class="anchored" data-anchor-id="part-i-foundations-orientation">Part I: Foundations &amp; Orientation</h2>
+<section id="part-i-meaning-and-orientation" class="level2">
+<h2 class="anchored" data-anchor-id="part-i-meaning-and-orientation">Part I: Meaning and Orientation</h2>
+<p><em>The opening weeks establish what interpretability is for, what kinds of questions it can reasonably be expected to answer, and how mechanistic explanations differ from post-hoc rationalizations.</em></p>
 <section id="week-1-framing-interpretability" class="level3">
 <h3 class="anchored" data-anchor-id="week-1-framing-interpretability">Week 1 — Framing Interpretability</h3>
 <dl>
@@ -280,8 +285,9 @@ Project page: <a href="https://rome.baulab.info/" class="uri">https://rome.baula
 <hr>
 </section>
 </section>
-<section id="part-ii-intervention-control-and-robustness" class="level2">
-<h2 class="anchored" data-anchor-id="part-ii-intervention-control-and-robustness">Part II: Intervention, Control, and Robustness</h2>
+<section id="part-ii-methods-interventions-and-internal-structure" class="level2">
+<h2 class="anchored" data-anchor-id="part-ii-methods-interventions-and-internal-structure">Part II: Methods, Interventions, and Internal Structure</h2>
+<p><em>The middle of the course focuses on what interpretability methods actually allow us to do with real models. The emphasis is on intervention-oriented mechanistic work. Throughout this section, participants are encouraged to track an implicit question: When does an intervention support an explanatory claim, and when is it merely a control knob?</em></p>
 <section id="week-5-steering-vectors" class="level3">
 <h3 class="anchored" data-anchor-id="week-5-steering-vectors">Week 5 — Steering Vectors</h3>
 <dl>
@@ -369,8 +375,9 @@ Anthropic Interpretability Team
 <hr>
 </section>
 </section>
-<section id="part-iii-failure-modes-explanation-and-alignment" class="level2">
-<h2 class="anchored" data-anchor-id="part-iii-failure-modes-explanation-and-alignment">Part III: Failure Modes, Explanation, and Alignment</h2>
+<section id="part-iii-limits-evaluation-and-stakes" class="level2">
+<h2 class="anchored" data-anchor-id="part-iii-limits-evaluation-and-stakes">Part III: Limits, Evaluation, and Stakes</h2>
+<p><em>The final section reframes interpretability from a technical toolkit into a contested epistemic strategy. By this point, participants have seen genuine successes, ambiguous interventions, and the temptation to compress complex evidence into persuasive narratives. Part III asks what follows from that experience.</em></p>
 <section id="week-11-mesa-optimization-and-deceptive-alignment" class="level3">
 <h3 class="anchored" data-anchor-id="week-11-mesa-optimization-and-deceptive-alignment">Week 11 — Mesa-Optimization and Deceptive Alignment</h3>
 <dl>

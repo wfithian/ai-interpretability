@@ -12,7 +12,11 @@ format:
     css: styles.css
 ---
 
-An interdisciplinary reading group on AI interpretability and its connection to AI safety. We read **one substantial paper per week** to enable deep engagement rather than surface coverage.
+An interdisciplinary reading group organized around a single question:
+
+> **What kinds of interpretability claims are meaningful, reliable, and decision-relevant as AI systems become more capable, opaque, and strategically situated?**
+
+We read **one substantial paper per week** to enable deep engagement rather than surface coverage.
 
 **Organizers:** Will Fithian & Wes Holliday
 
@@ -23,9 +27,11 @@ The reading list below is tentative and may be revised before the semester begin
 
 ## Reading Schedule
 
-The readings progress from *understanding* to *control* to *limits*.
+The course follows the arc of its title: **Meaning → Methods → Limitations**
 
-### Part I: Foundations & Orientation (Weeks 1–4)
+### Part I: Meaning and Orientation (Weeks 1–4)
+
+*What is interpretability for? What kinds of questions can it answer? How do mechanistic explanations differ from post-hoc rationalizations?*
 
 | Week | Topic | Reading |
 |------|-------|---------|
@@ -34,7 +40,9 @@ The readings progress from *understanding* to *control* to *limits*.
 | 3 | Interpretability as Safety Strategy | [A Pragmatic Vision for Interpretability](https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability) + [How Can Interpretability Researchers Help AGI Go Well?](https://www.alignmentforum.org/posts/MnkeepcGirnJn736j/how-can-interpretability-researchers-help-agi-go-well) — Nanda (2025) |
 | 4 | Causal Intervention (ROME) | [Locating and Editing Factual Associations in GPT](https://arxiv.org/abs/2202.05262) — Meng et al. (NeurIPS 2022) |
 
-### Part II: Intervention, Control, and Robustness (Weeks 5–10)
+### Part II: Methods, Interventions, and Internal Structure (Weeks 5–10)
+
+*What can interpretability methods actually do with real models? When does an intervention support an explanatory claim, and when is it merely a control knob?*
 
 | Week | Topic | Reading |
 |------|-------|---------|
@@ -45,7 +53,9 @@ The readings progress from *understanding* to *control* to *limits*.
 | 9 | Causal Scrubbing | [Causal Scrubbing: Rigorously Testing Mechanistic Hypotheses](https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing) — Chan et al. (2022) |
 | 10 | Large-Scale Mechanistic Interp | [On the Biology of a Large Language Model](https://www.anthropic.com/research/biology-of-a-large-language-model) — Anthropic (2025) |
 
-### Part III: Failure Modes, Explanation, and Alignment (Weeks 11–15)
+### Part III: Limits, Evaluation, and Stakes (Weeks 11–15)
+
+*When does interpretability evidence support counterfactual reasoning? Given its limits, what role should interpretability play in reducing catastrophic risk?*
 
 | Week | Topic | Reading |
 |------|-------|---------|
@@ -61,9 +71,9 @@ See the [full syllabus](syllabus.qmd) for paper summaries and additional context
 
 ## About the Group
 
-This reading group brings together researchers from Statistics, Computer Science, Philosophy, Neuroscience, and related fields to develop a shared understanding of AI interpretability—both as a scientific enterprise and as a potential tool for managing the risks posed by increasingly capable AI systems.
+This reading group treats interpretability as a *scientific and safety-relevant practice*: a collection of methods, epistemic standards, and theory-of-change assumptions aimed at gaining traction on the internal structure of modern ML systems in ways that could plausibly matter for oversight, control, and alignment.
 
-We emphasize *pragmatic mechanistic interpretability*: methods that make concrete, testable claims about how models work internally, and that plausibly contribute to oversight, control, and alignment.
+The group is intentionally interdisciplinary, bringing together perspectives from machine learning, statistics, causal inference, philosophy of science, and AI governance. A core goal is to establish **shared evaluative standards** across these communities—standards for what counts as evidence, explanation, robustness, and limitation in interpretability research.
 
 ### What We're Looking For
 
