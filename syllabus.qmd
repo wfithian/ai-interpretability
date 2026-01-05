@@ -19,6 +19,12 @@ format:
 | **Organizers** | Will Fithian & Wes Holliday |
 | **Meeting Time** | TBD |
 | **Location** | TBD |
+| **Units** | 1–2 |
+
+::: {.callout-note}
+## Tentative Reading List
+The reading list below is tentative and may be revised before the semester begins.
+:::
 
 ## About
 
@@ -126,21 +132,21 @@ The course is organized into three sections reflecting a progression from *under
 
 *Extracts truth-related structure from activations to separate what models know from what they say; foundational for oversight.*
 
-### Week 9 — Evaluating Interpretability Methods
-
-**Benchmarking Interpretability Tools for Deep Neural Networks** (2023)
-: Stephen Casper et al.
-: <https://arxiv.org/abs/2302.10894>
-
-*Interpretability needs empirical benchmarks; proposes trojan rediscovery as a ground-truth testbed for comparing tools.*
-
-### Week 10 — Causal Scrubbing
+### Week 9 — Causal Scrubbing
 
 **Causal Scrubbing: A Method for Rigorously Testing Mechanistic Interpretability Hypotheses** (2022)
 : Lawrence Chan et al.
 : <https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing>
 
 *Behavior-preserving resampling ablations as a principled way to test mechanistic hypotheses (interpretation → falsifiable causal claim).*
+
+### Week 10 — Large-Scale Mechanistic Interpretability
+
+**On the Biology of a Large Language Model** (2025)
+: Anthropic Interpretability Team
+: <https://www.anthropic.com/research/biology-of-a-large-language-model>
+
+*Presents Anthropic's most ambitious attempt to construct detailed mechanistic explanations of a frontier language model, tracing behavior through features, circuits, and attribution graphs. This paper serves as a flagship example of large-scale mechanistic interpretability in practice. Read in light of causal scrubbing, this week focuses on evaluating which parts of the explanatory narrative are causally supported, which rely on weaker forms of evidence, and what standards should govern claims of "understanding" at scale.*
 
 ---
 

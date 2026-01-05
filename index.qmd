@@ -16,6 +16,11 @@ An interdisciplinary reading group on AI interpretability and its connection to 
 
 **Organizers:** Will Fithian & Wes Holliday
 
+::: {.callout-note}
+## Tentative Reading List
+The reading list below is tentative and may be revised before the semester begins.
+:::
+
 ## Reading Schedule
 
 The readings progress from *understanding* to *control* to *limits*.
@@ -37,8 +42,8 @@ The readings progress from *understanding* to *control* to *limits*.
 | 6 | Behavioral Directions | [Refusal in LLMs Is Mediated by a Single Direction](https://arxiv.org/abs/2402.07896) — Arditi et al. (2024) + [Persona Vectors](https://www.anthropic.com/research/persona-vectors) — Anthropic (2025) |
 | 7 | Machine Unlearning | [TOFU: A Task of Fictitious Unlearning for LLMs](https://arxiv.org/abs/2401.06121) — Maini et al. (2024) |
 | 8 | Latent Knowledge | [Discovering Latent Knowledge in Language Models Without Supervision](https://arxiv.org/abs/2212.03827) — Burns et al. (ICLR 2023) |
-| 9 | Evaluating Interpretability | [Benchmarking Interpretability Tools for Deep Neural Networks](https://arxiv.org/abs/2302.10894) — Casper et al. (2023) |
-| 10 | Causal Scrubbing | [Causal Scrubbing: Rigorously Testing Mechanistic Hypotheses](https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing) — Chan et al. (2022) |
+| 9 | Causal Scrubbing | [Causal Scrubbing: Rigorously Testing Mechanistic Hypotheses](https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing) — Chan et al. (2022) |
+| 10 | Large-Scale Mechanistic Interp | [On the Biology of a Large Language Model](https://www.anthropic.com/research/biology-of-a-large-language-model) — Anthropic (2025) |
 
 ### Part III: Failure Modes, Explanation, and Alignment (Weeks 11–15)
 
@@ -75,6 +80,7 @@ No prior interpretability research experience required.
 | **Time** | TBD |
 | **Location** | TBD |
 | **First Meeting** | TBD |
+| **Units** | 1–2 |
 
 ## Contact
 
