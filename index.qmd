@@ -20,6 +20,11 @@ We read **one substantial paper per week** to enable deep engagement rather than
 
 **Organizers:** Will Fithian & Wes Holliday
 
+::: {.callout-tip}
+## Interested in joining?
+**[Fill out this form to indicate interest](https://forms.gle/WBqohweBJutZSQ7b7)** — we'll follow up with details as the semester approaches.
+:::
+
 ::: {.callout-note}
 ## Tentative Reading List
 The reading list below is tentative and may be revised before the semester begins.
