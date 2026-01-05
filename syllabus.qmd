@@ -12,55 +12,18 @@ format:
     css: styles.css
 ---
 
-## Group Information
 
-**Organizers:** Will Fithian & Wes Holliday
+The course follows the arc of its title:
 
-**Meeting details:** TBD
+- **Part I: Meaning and Orientation** (Weeks 1–3) — What is interpretability for? What kinds of questions can it answer?
+- **Part II: Methods, Interventions, and Internal Structure** (Weeks 4–10) — What can we actually do with real models, and what kinds of causal claims follow?
+- **Part III: Limits, Evaluation, and Stakes** (Weeks 11–15) — When does interpretability work, and what role should it play in mitigating AI risk?
 
-**Units:** 1–2
-
-::: {.callout-note}
-## Tentative Reading List
-The reading list below is tentative and may be revised before the semester begins.
-:::
-
-## About
-
-This reading group is organized around a single, demanding question:
-
-> **What kinds of interpretability claims are meaningful, reliable, and decision-relevant as AI systems become more capable, opaque, and strategically situated?**
-
-The course is not a general survey of explainable AI, nor an attempt to catalog interpretability techniques. Instead, it treats interpretability as a *scientific and safety-relevant practice*: a collection of methods, epistemic standards, and theory-of-change assumptions aimed at gaining traction on the internal structure of modern ML systems in ways that could plausibly matter for oversight, control, and alignment.
-
-The reading group is intentionally interdisciplinary, bringing together perspectives from machine learning, statistics, causal inference, philosophy of science, cognitive science, and AI governance. A core goal is to establish **shared evaluative standards** across these communities—standards for what counts as evidence, explanation, robustness, and limitation in interpretability research.
-
-## Learning Objectives
-
-By the end of this course, participants should be able to:
-
-1. **Distinguish** different senses of "interpretability" and "understanding"
-2. **Evaluate** mechanistic claims in light of causal and robustness criteria
-3. **Recognize** when interpretability evidence is strong, weak, or misleading
-4. **Articulate** realistic theories of change connecting interpretability to AI risk mitigation
-
-The aim is not consensus, but **shared standards of argument**.
-
-## Course Structure
-
-The course follows the arc of its title: **Meaning → Methods → Limitations**
-
-Rather than beginning with philosophical abstraction or ending with technical optimism, the syllabus is designed so that participants *earn* their skepticism and *discipline* their ambitions through sustained engagement with concrete research.
-
-- **Part I: Meaning and Orientation** (Weeks 1–4) — What is interpretability for? What kinds of questions can it answer?
-- **Part II: Methods, Interventions, and Internal Structure** (Weeks 5–10) — What can we actually do with real models?
-- **Part III: Limits, Evaluation, and Stakes** (Weeks 11–15) — When does interpretability work, and what role should it play in AI risk?
+The schedule below is tentative. Please do not hesitate to contact Will Fithian ([wfithian@berkeley.edu](mailto:wfithian@berkeley.edu)) or Wes Holliday ([wesholliday@berkeley.edu](mailto:wesholliday@berkeley.edu)) if you have additional papers or topics to suggest.
 
 ---
 
 ## Part I: Meaning and Orientation
-
-*The opening weeks establish what interpretability is for, what kinds of questions it can reasonably be expected to answer, and how mechanistic explanations differ from post-hoc rationalizations.*
 
 ### Week 1 — Framing Interpretability
 
@@ -89,6 +52,10 @@ Rather than beginning with philosophical abstraction or ending with technical op
 
 *Agenda-setting essays that articulate a pragmatic, safety-oriented theory of change for interpretability research.*
 
+---
+
+## Part II: Methods, Interventions, and Internal Structure
+
 ### Week 4 — Causal Intervention in Practice
 
 **Locating and Editing Factual Associations in GPT** (NeurIPS 2022)
@@ -98,11 +65,6 @@ Rather than beginning with philosophical abstraction or ending with technical op
 
 *ROME: causal tracing to identify where factual associations live in transformer computation, and targeted weight editing to modify them.*
 
----
-
-## Part II: Methods, Interventions, and Internal Structure
-
-*The middle of the course focuses on what interpretability methods actually allow us to do with real models. The emphasis is on intervention-oriented mechanistic work. Throughout this section, participants are encouraged to track an implicit question: When does an intervention support an explanatory claim, and when is it merely a control knob?*
 
 ### Week 5 — Steering Vectors
 
@@ -130,7 +92,7 @@ Rather than beginning with philosophical abstraction or ending with technical op
 : Pratyush Maini et al.
 : <https://arxiv.org/abs/2401.06121>
 
-*Benchmark + evaluation suite for LLM unlearning; clarifies what it would mean to behave as if certain data were never learned.*
+*Benchmark and evaluation suite for LLM unlearning; clarifies what it would mean to behave as if certain data were never learned.*
 
 ### Week 8 — Latent Knowledge
 
@@ -146,7 +108,7 @@ Rather than beginning with philosophical abstraction or ending with technical op
 : Lawrence Chan et al.
 : <https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing>
 
-*Behavior-preserving resampling ablations as a principled way to test mechanistic hypotheses (interpretation → falsifiable causal claim).*
+*Behavior-preserving resampling ablations as a principled way to test mechanistic hypotheses (interpretation as a falsifiable causal claim).*
 
 ### Week 10 — Large-Scale Mechanistic Interpretability
 
@@ -154,13 +116,11 @@ Rather than beginning with philosophical abstraction or ending with technical op
 : Anthropic Interpretability Team
 : <https://www.anthropic.com/research/biology-of-a-large-language-model>
 
-*Presents Anthropic's most ambitious attempt to construct detailed mechanistic explanations of a frontier language model, tracing behavior through features, circuits, and attribution graphs. This paper serves as a flagship example of large-scale mechanistic interpretability in practice. Read in light of causal scrubbing, this week focuses on evaluating which parts of the explanatory narrative are causally supported, which rely on weaker forms of evidence, and what standards should govern claims of "understanding" at scale.*
+*Anthropic's most ambitious attempt to construct detailed mechanistic explanations of a frontier language model, tracing behavior through features, circuits, and attribution graphs.*
 
 ---
 
 ## Part III: Limits, Evaluation, and Stakes
-
-*The final section reframes interpretability from a technical toolkit into a contested epistemic strategy. By this point, participants have seen genuine successes, ambiguous interventions, and the temptation to compress complex evidence into persuasive narratives. Part III asks what follows from that experience.*
 
 ### Week 11 — Mesa-Optimization and Deceptive Alignment
 
@@ -191,7 +151,7 @@ Rather than beginning with philosophical abstraction or ending with technical op
 : Atticus Geiger, DeepMind et al.
 : <https://arxiv.org/abs/2303.02536>
 
-*Asks whether mechanistic interpretability explanations support valid higher-level causal abstractions. Develops formal criteria for abstraction-preserving interventions and shows that many mechanistic stories fail to license the explanations they appear to offer. Serves as a rigorous stress test for interpretability claims in light of interventionist philosophy.*
+*Asks whether mechanistic interpretability explanations support valid higher-level causal abstractions. Develops formal criteria for abstraction-preserving interventions and shows that many mechanistic stories fail to license the explanations they appear to offer.*
 
 ### Week 15 — Interpretability and Existential Risk
 
@@ -213,16 +173,3 @@ Rather than beginning with philosophical abstraction or ending with technical op
 - Active participation is expected; the value of the group depends on collective engagement
 - Discussions will focus on: What does this paper claim? How do we evaluate those claims? What are the implications for AI safety?
 
-### Presentations (Optional)
-[Each participant will lead discussion for X session(s) during the semester.]
-
-### Final Project (Optional)
-[Description of final project requirements, if applicable.]
-
-## Academic Integrity
-
-All participants are expected to uphold the highest standards of academic integrity. When presenting others' ideas, proper attribution is required.
-
-## Contact
-
-Questions? Contact Will Fithian ([wfithian@berkeley.edu](mailto:wfithian@berkeley.edu)) or Wes Holliday ([wesholliday@berkeley.edu](mailto:wesholliday@berkeley.edu)).
