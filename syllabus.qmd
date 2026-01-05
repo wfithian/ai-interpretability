@@ -1,5 +1,5 @@
 ---
-title: "AI Interpretability & AI Risk"
+title: "AI Interpretability: Meaning, Methods, and Limitations"
 subtitle: "Graduate Reading Group — UC Berkeley — Spring 2026"
 format:
   html:
@@ -17,8 +17,8 @@ format:
 | | |
 |---|---|
 | **Organizers** | Will Fithian & Wes Holliday |
-| **Meeting Time** | [Day], [Time] |
-| **Location** | [Building, Room Number] |
+| **Meeting Time** | TBD |
+| **Location** | TBD |
 
 ## About
 
@@ -43,8 +43,8 @@ By the end of this course, participants will be able to:
 The course is organized into three sections reflecting a progression from *understanding* to *control* to *limits*:
 
 - **Part I: Foundations & Orientation** (Weeks 1–4) — Conceptual grounding, mechanistic methods, and strategic goals
-- **Part II: Intervention, Control, and Robustness** (Weeks 5–11) — What we can do to models and how to evaluate it
-- **Part III: Failure Modes, Explanation, and Alignment** (Weeks 12–15) — When interpretability breaks and how it fits into AI risk
+- **Part II: Intervention, Control, and Robustness** (Weeks 5–10) — What we can do to models and how to evaluate it
+- **Part III: Failure Modes, Explanation, and Alignment** (Weeks 11–15) — When interpretability breaks and how it fits into AI risk
 
 ---
 
@@ -98,13 +98,17 @@ The course is organized into three sections reflecting a progression from *under
 
 *Activation Addition (ActAdd): inference-time steering by adding activation-space directions computed from prompt pairs; foundational steering method.*
 
-### Week 6 — Angular Steering
+### Week 6 — Behavioral Directions and Internal State Variables
 
-**Angular Steering: Behavior Control via Rotation in Activation Space** (2025)
-: Hieu M. Vu & Tan M. Nguyen
-: <https://arxiv.org/abs/2510.26243>
+**Refusal in Language Models Is Mediated by a Single Direction** (2024)
+: Yoni Arditi, Neel Nanda et al.
+: <https://arxiv.org/abs/2402.07896>
 
-*Frames steering as rotation of activations toward/away from a target direction; good for discussing stability/selectivity and collateral effects.*
+**Persona Vectors: Monitoring and Steering Model Behavior** (2025)
+: Anthropic Interpretability Team
+: <https://www.anthropic.com/research/persona-vectors>
+
+*Together, these readings show that important model behaviors can be mediated by low-dimensional structure in activation space. The refusal paper provides a crisp mechanistic result for a single high-stakes behavior, while persona vectors generalize this idea to broader, more persistent behavioral traits and recast interpretability as monitoring and oversight infrastructure. This week sets up later discussions about robustness, abstraction, and the limits of behavioral interpretability.*
 
 ### Week 7 — Machine Unlearning
 
@@ -122,15 +126,7 @@ The course is organized into three sections reflecting a progression from *under
 
 *Extracts truth-related structure from activations to separate what models know from what they say; foundational for oversight.*
 
-### Week 9 — Prompt Sensitivity
-
-**On the Worst Prompt Performance of Large Language Models** (2024)
-: Bowen Cao et al.
-: <https://arxiv.org/abs/2406.10248>
-
-*Quantifies prompt sensitivity via "worst prompt" evaluation; forces a discussion of context distribution shift and fragility of conclusions.*
-
-### Week 10 — Evaluating Interpretability Methods
+### Week 9 — Evaluating Interpretability Methods
 
 **Benchmarking Interpretability Tools for Deep Neural Networks** (2023)
 : Stephen Casper et al.
@@ -138,7 +134,7 @@ The course is organized into three sections reflecting a progression from *under
 
 *Interpretability needs empirical benchmarks; proposes trojan rediscovery as a ground-truth testbed for comparing tools.*
 
-### Week 11 — Causal Scrubbing
+### Week 10 — Causal Scrubbing
 
 **Causal Scrubbing: A Method for Rigorously Testing Mechanistic Interpretability Hypotheses** (2022)
 : Lawrence Chan et al.
@@ -150,7 +146,7 @@ The course is organized into three sections reflecting a progression from *under
 
 ## Part III: Failure Modes, Explanation, and Alignment
 
-### Week 12 — Mesa-Optimization and Deceptive Alignment
+### Week 11 — Mesa-Optimization and Deceptive Alignment
 
 **Risks from Learned Optimization in Advanced ML Systems** (2019)
 : Evan Hubinger et al.
@@ -158,7 +154,7 @@ The course is organized into three sections reflecting a progression from *under
 
 *Classic account of mesa-optimization and deceptive alignment; essential for understanding interpretability's limits.*
 
-### Week 13 — Deceptive Interpretability
+### Week 12 — Deceptive Interpretability
 
 **Deceptive Automated Interpretability: Language Models Coordinating to Fool Oversight Systems** (2025)
 : Simon Lermen, Mateusz Dziemian, Natalia Pérez-Campanero Antolín
@@ -166,12 +162,20 @@ The course is organized into three sections reflecting a progression from *under
 
 *Shows how models/agents can produce deceptive explanations that evade automated interpretability-based oversight; stress-tests interpretability as safety infrastructure.*
 
-### Week 14 — Philosophy of Causal Explanation
+### Week 13 — Philosophy of Causal Explanation
 
 **Making Things Happen** (2003), selected chapters
 : James Woodward
 
 *Philosophical grounding for causal explanation and intervention.*
+
+### Week 14 — Causal Abstractions
+
+**Causal Abstractions of Neural Networks** (2023)
+: Atticus Geiger, DeepMind et al.
+: <https://arxiv.org/abs/2303.02536>
+
+*Asks whether mechanistic interpretability explanations support valid higher-level causal abstractions. Develops formal criteria for abstraction-preserving interventions and shows that many mechanistic stories fail to license the explanations they appear to offer. Serves as a rigorous stress test for interpretability claims in light of interventionist philosophy.*
 
 ### Week 15 — Interpretability and Existential Risk
 

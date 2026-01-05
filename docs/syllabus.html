@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>AI Interpretability &amp; AI Risk</title>
+<title>AI Interpretability: Meaning, Methods, and Limitations – AI Interpretability &amp; AI Risk</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -126,18 +126,18 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#part-ii-intervention-control-and-robustness" id="toc-part-ii-intervention-control-and-robustness" class="nav-link" data-scroll-target="#part-ii-intervention-control-and-robustness">Part II: Intervention, Control, and Robustness</a>
   <ul class="collapse">
   <li><a href="#week-5-steering-vectors" id="toc-week-5-steering-vectors" class="nav-link" data-scroll-target="#week-5-steering-vectors">Week 5 — Steering Vectors</a></li>
-  <li><a href="#week-6-angular-steering" id="toc-week-6-angular-steering" class="nav-link" data-scroll-target="#week-6-angular-steering">Week 6 — Angular Steering</a></li>
+  <li><a href="#week-6-behavioral-directions-and-internal-state-variables" id="toc-week-6-behavioral-directions-and-internal-state-variables" class="nav-link" data-scroll-target="#week-6-behavioral-directions-and-internal-state-variables">Week 6 — Behavioral Directions and Internal State Variables</a></li>
   <li><a href="#week-7-machine-unlearning" id="toc-week-7-machine-unlearning" class="nav-link" data-scroll-target="#week-7-machine-unlearning">Week 7 — Machine Unlearning</a></li>
   <li><a href="#week-8-latent-knowledge" id="toc-week-8-latent-knowledge" class="nav-link" data-scroll-target="#week-8-latent-knowledge">Week 8 — Latent Knowledge</a></li>
-  <li><a href="#week-9-prompt-sensitivity" id="toc-week-9-prompt-sensitivity" class="nav-link" data-scroll-target="#week-9-prompt-sensitivity">Week 9 — Prompt Sensitivity</a></li>
-  <li><a href="#week-10-evaluating-interpretability-methods" id="toc-week-10-evaluating-interpretability-methods" class="nav-link" data-scroll-target="#week-10-evaluating-interpretability-methods">Week 10 — Evaluating Interpretability Methods</a></li>
-  <li><a href="#week-11-causal-scrubbing" id="toc-week-11-causal-scrubbing" class="nav-link" data-scroll-target="#week-11-causal-scrubbing">Week 11 — Causal Scrubbing</a></li>
+  <li><a href="#week-9-evaluating-interpretability-methods" id="toc-week-9-evaluating-interpretability-methods" class="nav-link" data-scroll-target="#week-9-evaluating-interpretability-methods">Week 9 — Evaluating Interpretability Methods</a></li>
+  <li><a href="#week-10-causal-scrubbing" id="toc-week-10-causal-scrubbing" class="nav-link" data-scroll-target="#week-10-causal-scrubbing">Week 10 — Causal Scrubbing</a></li>
   </ul></li>
   <li><a href="#part-iii-failure-modes-explanation-and-alignment" id="toc-part-iii-failure-modes-explanation-and-alignment" class="nav-link" data-scroll-target="#part-iii-failure-modes-explanation-and-alignment">Part III: Failure Modes, Explanation, and Alignment</a>
   <ul class="collapse">
-  <li><a href="#week-12-mesa-optimization-and-deceptive-alignment" id="toc-week-12-mesa-optimization-and-deceptive-alignment" class="nav-link" data-scroll-target="#week-12-mesa-optimization-and-deceptive-alignment">Week 12 — Mesa-Optimization and Deceptive Alignment</a></li>
-  <li><a href="#week-13-deceptive-interpretability" id="toc-week-13-deceptive-interpretability" class="nav-link" data-scroll-target="#week-13-deceptive-interpretability">Week 13 — Deceptive Interpretability</a></li>
-  <li><a href="#week-14-philosophy-of-causal-explanation" id="toc-week-14-philosophy-of-causal-explanation" class="nav-link" data-scroll-target="#week-14-philosophy-of-causal-explanation">Week 14 — Philosophy of Causal Explanation</a></li>
+  <li><a href="#week-11-mesa-optimization-and-deceptive-alignment" id="toc-week-11-mesa-optimization-and-deceptive-alignment" class="nav-link" data-scroll-target="#week-11-mesa-optimization-and-deceptive-alignment">Week 11 — Mesa-Optimization and Deceptive Alignment</a></li>
+  <li><a href="#week-12-deceptive-interpretability" id="toc-week-12-deceptive-interpretability" class="nav-link" data-scroll-target="#week-12-deceptive-interpretability">Week 12 — Deceptive Interpretability</a></li>
+  <li><a href="#week-13-philosophy-of-causal-explanation" id="toc-week-13-philosophy-of-causal-explanation" class="nav-link" data-scroll-target="#week-13-philosophy-of-causal-explanation">Week 13 — Philosophy of Causal Explanation</a></li>
+  <li><a href="#week-14-causal-abstractions" id="toc-week-14-causal-abstractions" class="nav-link" data-scroll-target="#week-14-causal-abstractions">Week 14 — Causal Abstractions</a></li>
   <li><a href="#week-15-interpretability-and-existential-risk" id="toc-week-15-interpretability-and-existential-risk" class="nav-link" data-scroll-target="#week-15-interpretability-and-existential-risk">Week 15 — Interpretability and Existential Risk</a></li>
   </ul></li>
   <li><a href="#expectations-and-participation" id="toc-expectations-and-participation" class="nav-link" data-scroll-target="#expectations-and-participation">Expectations and Participation</a>
@@ -161,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">AI Interpretability &amp; AI Risk</h1>
+<h1 class="title">AI Interpretability: Meaning, Methods, and Limitations</h1>
 <p class="subtitle lead">Graduate Reading Group — UC Berkeley — Spring 2026</p>
 </div>
 
@@ -189,11 +189,11 @@ ul.task-list li input[type="checkbox"] {
 </tr>
 <tr class="even">
 <td><strong>Meeting Time</strong></td>
-<td>[Day], [Time]</td>
+<td>TBD</td>
 </tr>
 <tr class="odd">
 <td><strong>Location</strong></td>
-<td>[Building, Room Number]</td>
+<td>TBD</td>
 </tr>
 </tbody>
 </table>
@@ -220,8 +220,8 @@ ul.task-list li input[type="checkbox"] {
 <p>The course is organized into three sections reflecting a progression from <em>understanding</em> to <em>control</em> to <em>limits</em>:</p>
 <ul>
 <li><strong>Part I: Foundations &amp; Orientation</strong> (Weeks 1–4) — Conceptual grounding, mechanistic methods, and strategic goals</li>
-<li><strong>Part II: Intervention, Control, and Robustness</strong> (Weeks 5–11) — What we can do to models and how to evaluate it</li>
-<li><strong>Part III: Failure Modes, Explanation, and Alignment</strong> (Weeks 12–15) — When interpretability breaks and how it fits into AI risk</li>
+<li><strong>Part II: Intervention, Control, and Robustness</strong> (Weeks 5–10) — What we can do to models and how to evaluate it</li>
+<li><strong>Part III: Failure Modes, Explanation, and Alignment</strong> (Weeks 11–15) — When interpretability breaks and how it fits into AI risk</li>
 </ul>
 <hr>
 </section>
@@ -295,18 +295,25 @@ Alexander Matt Turner et al.
 </dl>
 <p><em>Activation Addition (ActAdd): inference-time steering by adding activation-space directions computed from prompt pairs; foundational steering method.</em></p>
 </section>
-<section id="week-6-angular-steering" class="level3">
-<h3 class="anchored" data-anchor-id="week-6-angular-steering">Week 6 — Angular Steering</h3>
+<section id="week-6-behavioral-directions-and-internal-state-variables" class="level3">
+<h3 class="anchored" data-anchor-id="week-6-behavioral-directions-and-internal-state-variables">Week 6 — Behavioral Directions and Internal State Variables</h3>
 <dl>
-<dt><strong>Angular Steering: Behavior Control via Rotation in Activation Space</strong> (2025)</dt>
+<dt><strong>Refusal in Language Models Is Mediated by a Single Direction</strong> (2024)</dt>
 <dd>
-Hieu M. Vu &amp; Tan M. Nguyen
+Yoni Arditi, Neel Nanda et al.
 </dd>
 <dd>
-<a href="https://arxiv.org/abs/2510.26243" class="uri">https://arxiv.org/abs/2510.26243</a>
+<a href="https://arxiv.org/abs/2402.07896" class="uri">https://arxiv.org/abs/2402.07896</a>
+</dd>
+<dt><strong>Persona Vectors: Monitoring and Steering Model Behavior</strong> (2025)</dt>
+<dd>
+Anthropic Interpretability Team
+</dd>
+<dd>
+<a href="https://www.anthropic.com/research/persona-vectors" class="uri">https://www.anthropic.com/research/persona-vectors</a>
 </dd>
 </dl>
-<p><em>Frames steering as rotation of activations toward/away from a target direction; good for discussing stability/selectivity and collateral effects.</em></p>
+<p><em>Together, these readings show that important model behaviors can be mediated by low-dimensional structure in activation space. The refusal paper provides a crisp mechanistic result for a single high-stakes behavior, while persona vectors generalize this idea to broader, more persistent behavioral traits and recast interpretability as monitoring and oversight infrastructure. This week sets up later discussions about robustness, abstraction, and the limits of behavioral interpretability.</em></p>
 </section>
 <section id="week-7-machine-unlearning" class="level3">
 <h3 class="anchored" data-anchor-id="week-7-machine-unlearning">Week 7 — Machine Unlearning</h3>
@@ -334,21 +341,8 @@ Collin Burns et al.
 </dl>
 <p><em>Extracts truth-related structure from activations to separate what models know from what they say; foundational for oversight.</em></p>
 </section>
-<section id="week-9-prompt-sensitivity" class="level3">
-<h3 class="anchored" data-anchor-id="week-9-prompt-sensitivity">Week 9 — Prompt Sensitivity</h3>
-<dl>
-<dt><strong>On the Worst Prompt Performance of Large Language Models</strong> (2024)</dt>
-<dd>
-Bowen Cao et al.
-</dd>
-<dd>
-<a href="https://arxiv.org/abs/2406.10248" class="uri">https://arxiv.org/abs/2406.10248</a>
-</dd>
-</dl>
-<p><em>Quantifies prompt sensitivity via “worst prompt” evaluation; forces a discussion of context distribution shift and fragility of conclusions.</em></p>
-</section>
-<section id="week-10-evaluating-interpretability-methods" class="level3">
-<h3 class="anchored" data-anchor-id="week-10-evaluating-interpretability-methods">Week 10 — Evaluating Interpretability Methods</h3>
+<section id="week-9-evaluating-interpretability-methods" class="level3">
+<h3 class="anchored" data-anchor-id="week-9-evaluating-interpretability-methods">Week 9 — Evaluating Interpretability Methods</h3>
 <dl>
 <dt><strong>Benchmarking Interpretability Tools for Deep Neural Networks</strong> (2023)</dt>
 <dd>
@@ -360,8 +354,8 @@ Stephen Casper et al.
 </dl>
 <p><em>Interpretability needs empirical benchmarks; proposes trojan rediscovery as a ground-truth testbed for comparing tools.</em></p>
 </section>
-<section id="week-11-causal-scrubbing" class="level3">
-<h3 class="anchored" data-anchor-id="week-11-causal-scrubbing">Week 11 — Causal Scrubbing</h3>
+<section id="week-10-causal-scrubbing" class="level3">
+<h3 class="anchored" data-anchor-id="week-10-causal-scrubbing">Week 10 — Causal Scrubbing</h3>
 <dl>
 <dt><strong>Causal Scrubbing: A Method for Rigorously Testing Mechanistic Interpretability Hypotheses</strong> (2022)</dt>
 <dd>
@@ -377,8 +371,8 @@ Lawrence Chan et al.
 </section>
 <section id="part-iii-failure-modes-explanation-and-alignment" class="level2">
 <h2 class="anchored" data-anchor-id="part-iii-failure-modes-explanation-and-alignment">Part III: Failure Modes, Explanation, and Alignment</h2>
-<section id="week-12-mesa-optimization-and-deceptive-alignment" class="level3">
-<h3 class="anchored" data-anchor-id="week-12-mesa-optimization-and-deceptive-alignment">Week 12 — Mesa-Optimization and Deceptive Alignment</h3>
+<section id="week-11-mesa-optimization-and-deceptive-alignment" class="level3">
+<h3 class="anchored" data-anchor-id="week-11-mesa-optimization-and-deceptive-alignment">Week 11 — Mesa-Optimization and Deceptive Alignment</h3>
 <dl>
 <dt><strong>Risks from Learned Optimization in Advanced ML Systems</strong> (2019)</dt>
 <dd>
@@ -390,8 +384,8 @@ Evan Hubinger et al.
 </dl>
 <p><em>Classic account of mesa-optimization and deceptive alignment; essential for understanding interpretability’s limits.</em></p>
 </section>
-<section id="week-13-deceptive-interpretability" class="level3">
-<h3 class="anchored" data-anchor-id="week-13-deceptive-interpretability">Week 13 — Deceptive Interpretability</h3>
+<section id="week-12-deceptive-interpretability" class="level3">
+<h3 class="anchored" data-anchor-id="week-12-deceptive-interpretability">Week 12 — Deceptive Interpretability</h3>
 <dl>
 <dt><strong>Deceptive Automated Interpretability: Language Models Coordinating to Fool Oversight Systems</strong> (2025)</dt>
 <dd>
@@ -403,8 +397,8 @@ Simon Lermen, Mateusz Dziemian, Natalia Pérez-Campanero Antolín
 </dl>
 <p><em>Shows how models/agents can produce deceptive explanations that evade automated interpretability-based oversight; stress-tests interpretability as safety infrastructure.</em></p>
 </section>
-<section id="week-14-philosophy-of-causal-explanation" class="level3">
-<h3 class="anchored" data-anchor-id="week-14-philosophy-of-causal-explanation">Week 14 — Philosophy of Causal Explanation</h3>
+<section id="week-13-philosophy-of-causal-explanation" class="level3">
+<h3 class="anchored" data-anchor-id="week-13-philosophy-of-causal-explanation">Week 13 — Philosophy of Causal Explanation</h3>
 <dl>
 <dt><strong>Making Things Happen</strong> (2003), selected chapters</dt>
 <dd>
@@ -412,6 +406,19 @@ James Woodward
 </dd>
 </dl>
 <p><em>Philosophical grounding for causal explanation and intervention.</em></p>
+</section>
+<section id="week-14-causal-abstractions" class="level3">
+<h3 class="anchored" data-anchor-id="week-14-causal-abstractions">Week 14 — Causal Abstractions</h3>
+<dl>
+<dt><strong>Causal Abstractions of Neural Networks</strong> (2023)</dt>
+<dd>
+Atticus Geiger, DeepMind et al.
+</dd>
+<dd>
+<a href="https://arxiv.org/abs/2303.02536" class="uri">https://arxiv.org/abs/2303.02536</a>
+</dd>
+</dl>
+<p><em>Asks whether mechanistic interpretability explanations support valid higher-level causal abstractions. Develops formal criteria for abstraction-preserving interventions and shows that many mechanistic stories fail to license the explanations they appear to offer. Serves as a rigorous stress test for interpretability claims in light of interventionist philosophy.</em></p>
 </section>
 <section id="week-15-interpretability-and-existential-risk" class="level3">
 <h3 class="anchored" data-anchor-id="week-15-interpretability-and-existential-risk">Week 15 — Interpretability and Existential Risk</h3>
