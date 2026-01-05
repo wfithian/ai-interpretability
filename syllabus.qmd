@@ -14,12 +14,11 @@ format:
 
 ## Group Information
 
-| | |
-|---|---|
-| **Organizers** | Will Fithian & Wes Holliday |
-| **Meeting Time** | TBD |
-| **Location** | TBD |
-| **Units** | 1–2 |
+**Organizers:** Will Fithian & Wes Holliday
+
+**Meeting details:** TBD
+
+**Units:** 1–2
 
 ::: {.callout-note}
 ## Tentative Reading List
