@@ -68,22 +68,23 @@ The course is organized into three sections reflecting a progression from *under
 
 ### Week 3 — Interpretability as a Safety Strategy
 
-**Neel Nanda**
+**Neel Nanda** (2025)
 
 - *A Pragmatic Vision for Interpretability*
   <https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability>
 - *How Can Interpretability Researchers Help AGI Go Well?*
   <https://www.alignmentforum.org/posts/MnkeepcGirnJn736j/how-can-interpretability-researchers-help-agi-go-well>
 
-*Agenda-setting essays (2025) that articulate a pragmatic, safety-oriented theory of change for interpretability research.*
+*Agenda-setting essays that articulate a pragmatic, safety-oriented theory of change for interpretability research.*
 
 ### Week 4 — Causal Intervention in Practice
 
-**Locating and Editing Factual Associations in Transformer Language Models** (2024)
+**Locating and Editing Factual Associations in GPT** (NeurIPS 2022)
 : Kevin Meng et al.
-: <https://arxiv.org/abs/2401.01967>
+: <https://arxiv.org/abs/2202.05262>
+: Project page: <https://rome.baulab.info/>
 
-*A modern example of causal and mechanistic intervention on real language models; bridges theory and practice.*
+*ROME: causal tracing to identify where factual associations live in transformer computation, and targeted weight editing to modify them.*
 
 ---
 
@@ -91,59 +92,59 @@ The course is organized into three sections reflecting a progression from *under
 
 ### Week 5 — Steering Vectors
 
-**Steering GPT-2-XL by Adding Directions in Activation Space** (2023)
-: Alexander Turner et al.
-: <https://arxiv.org/abs/2303.11396>
+**Steering Language Models With Activation Engineering** (2023)
+: Alexander Matt Turner et al.
+: <https://arxiv.org/abs/2308.10248>
 
-*Introduces steering vectors and linear control of model behavior via internal activations.*
+*Activation Addition (ActAdd): inference-time steering by adding activation-space directions computed from prompt pairs; foundational steering method.*
 
-### Week 6 — Stability of Steering
+### Week 6 — Angular Steering
 
-**Layer-Wise Stability of Steering Vectors** (2024)
-: Li et al.
-: *(Link to be finalized)*
+**Angular Steering: Behavior Control via Rotation in Activation Space** (2025)
+: Hieu M. Vu & Tan M. Nguyen
+: <https://arxiv.org/abs/2510.26243>
 
-*Analyzes how steering directions vary across layers, prompts, and contexts; central to robustness and persona sampling.*
+*Frames steering as rotation of activations toward/away from a target direction; good for discussing stability/selectivity and collateral effects.*
 
 ### Week 7 — Machine Unlearning
 
-**Unlearning Dangerous Capabilities in Language Models** (2024)
-: Vikram Maini et al.
-: <https://arxiv.org/abs/2301.10728>
+**TOFU: A Task of Fictitious Unlearning for LLMs** (2024)
+: Pratyush Maini et al.
+: <https://arxiv.org/abs/2401.06121>
 
-*Explores selective forgetting and capability removal, raising deep questions about representation and control.*
+*Benchmark + evaluation suite for LLM unlearning; clarifies what it would mean to behave as if certain data were never learned.*
 
 ### Week 8 — Latent Knowledge
 
-**Discovering Latent Knowledge in Language Models Without Supervision** (2023)
+**Discovering Latent Knowledge in Language Models Without Supervision** (ICLR 2023; arXiv 2022)
 : Collin Burns et al.
-: <https://arxiv.org/abs/2306.11644>
+: <https://arxiv.org/abs/2212.03827>
 
-*Separates what models know from what they say; foundational for oversight and evaluation.*
+*Extracts truth-related structure from activations to separate what models know from what they say; foundational for oversight.*
 
-### Week 9 — Context-Dependent Representations
+### Week 9 — Prompt Sensitivity
 
-**Prompted Representations: Context-Dependent Embeddings and Hidden States** (2024)
-: Miller et al.
-: *(Link to be finalized)*
+**On the Worst Prompt Performance of Large Language Models** (2024)
+: Bowen Cao et al.
+: <https://arxiv.org/abs/2406.10248>
 
-*Shows how prompts reshape internal representations, challenging assumptions of interpretability robustness.*
+*Quantifies prompt sensitivity via "worst prompt" evaluation; forces a discussion of context distribution shift and fragility of conclusions.*
 
 ### Week 10 — Evaluating Interpretability Methods
 
-**Evaluating Interpretability: A Framework for Benchmarking Methods** (2024)
+**Benchmarking Interpretability Tools for Deep Neural Networks** (2023)
 : Stephen Casper et al.
-: <https://arxiv.org/abs/2303.16812>
+: <https://arxiv.org/abs/2302.10894>
 
-*Proposes criteria and benchmarks for determining whether interpretability methods actually work.*
+*Interpretability needs empirical benchmarks; proposes trojan rediscovery as a ground-truth testbed for comparing tools.*
 
 ### Week 11 — Causal Scrubbing
 
-**Causal Scrubbing: Interventions for Mechanistic Interpretability** (2023)
+**Causal Scrubbing: A Method for Rigorously Testing Mechanistic Interpretability Hypotheses** (2022)
 : Lawrence Chan et al.
-: <https://arxiv.org/abs/2301.13163>
+: <https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing>
 
-*Introduces a disciplined framework for causal claims in mechanistic interpretability.*
+*Behavior-preserving resampling ablations as a principled way to test mechanistic hypotheses (interpretation → falsifiable causal claim).*
 
 ---
 
@@ -157,13 +158,13 @@ The course is organized into three sections reflecting a progression from *under
 
 *Classic account of mesa-optimization and deceptive alignment; essential for understanding interpretability's limits.*
 
-### Week 13 — Interpretability Under Deception
+### Week 13 — Deceptive Interpretability
 
-**Mechanistic Interpretability Can Fail in the Presence of Deception** (2024)
-: Barnett et al.
-: *(Link to be finalized)*
+**Deceptive Automated Interpretability: Language Models Coordinating to Fool Oversight Systems** (2025)
+: Simon Lermen, Mateusz Dziemian, Natalia Pérez-Campanero Antolín
+: <https://arxiv.org/abs/2504.07831>
 
-*Explores how strategically aware systems could evade or manipulate interpretability tools.*
+*Shows how models/agents can produce deceptive explanations that evade automated interpretability-based oversight; stress-tests interpretability as safety infrastructure.*
 
 ### Week 14 — Philosophy of Causal Explanation
 

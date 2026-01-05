@@ -27,26 +27,26 @@ The readings progress from *understanding* to *control* to *limits*.
 | 1 | Framing Interpretability | [Towards a Rigorous Science of Interpretable Machine Learning](https://arxiv.org/abs/1702.08608) — Doshi-Velez & Kim (2017) |
 | 2 | Mechanistic Interpretability | [Zoom In: Circuits](https://distill.pub/2020/circuits/) — Olah et al. (2020) |
 | 3 | Interpretability as Safety Strategy | [A Pragmatic Vision for Interpretability](https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability) + [How Can Interpretability Researchers Help AGI Go Well?](https://www.alignmentforum.org/posts/MnkeepcGirnJn736j/how-can-interpretability-researchers-help-agi-go-well) — Nanda (2025) |
-| 4 | Causal Intervention in Practice | [Locating and Editing Factual Associations in Transformers](https://arxiv.org/abs/2401.01967) — Meng et al. (2024) |
+| 4 | Causal Intervention (ROME) | [Locating and Editing Factual Associations in GPT](https://arxiv.org/abs/2202.05262) — Meng et al. (NeurIPS 2022) |
 
 ### Part II: Intervention, Control, and Robustness (Weeks 5–11)
 
 | Week | Topic | Reading |
 |------|-------|---------|
-| 5 | Steering Vectors | [Steering GPT-2-XL by Adding Directions in Activation Space](https://arxiv.org/abs/2303.11396) — Turner et al. (2023) |
-| 6 | Stability of Steering | Layer-Wise Stability of Steering Vectors — Li et al. (2024) |
-| 7 | Machine Unlearning | [Unlearning Dangerous Capabilities in Language Models](https://arxiv.org/abs/2301.10728) — Maini et al. (2024) |
-| 8 | Latent Knowledge | [Discovering Latent Knowledge in Language Models Without Supervision](https://arxiv.org/abs/2306.11644) — Burns et al. (2023) |
-| 9 | Context-Dependent Representations | Prompted Representations — Miller et al. (2024) |
-| 10 | Evaluating Interpretability | [A Framework for Benchmarking Methods](https://arxiv.org/abs/2303.16812) — Casper et al. (2024) |
-| 11 | Causal Scrubbing | [Interventions for Mechanistic Interpretability](https://arxiv.org/abs/2301.13163) — Chan et al. (2023) |
+| 5 | Steering Vectors | [Steering Language Models With Activation Engineering](https://arxiv.org/abs/2308.10248) — Turner et al. (2023) |
+| 6 | Angular Steering | [Angular Steering: Behavior Control via Rotation in Activation Space](https://arxiv.org/abs/2510.26243) — Vu & Nguyen (2025) |
+| 7 | Machine Unlearning | [TOFU: A Task of Fictitious Unlearning for LLMs](https://arxiv.org/abs/2401.06121) — Maini et al. (2024) |
+| 8 | Latent Knowledge | [Discovering Latent Knowledge in Language Models Without Supervision](https://arxiv.org/abs/2212.03827) — Burns et al. (ICLR 2023) |
+| 9 | Prompt Sensitivity | [On the Worst Prompt Performance of Large Language Models](https://arxiv.org/abs/2406.10248) — Cao et al. (2024) |
+| 10 | Evaluating Interpretability | [Benchmarking Interpretability Tools for Deep Neural Networks](https://arxiv.org/abs/2302.10894) — Casper et al. (2023) |
+| 11 | Causal Scrubbing | [Causal Scrubbing: A Method for Rigorously Testing Mechanistic Interpretability Hypotheses](https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing) — Chan et al. (2022) |
 
 ### Part III: Failure Modes, Explanation, and Alignment (Weeks 12–15)
 
 | Week | Topic | Reading |
 |------|-------|---------|
 | 12 | Mesa-Optimization | [Risks from Learned Optimization in Advanced ML Systems](https://arxiv.org/abs/1906.01820) — Hubinger et al. (2019) |
-| 13 | Interpretability Under Deception | Mechanistic Interpretability Can Fail in the Presence of Deception — Barnett et al. (2024) |
+| 13 | Deceptive Interpretability | [Deceptive Automated Interpretability: LMs Coordinating to Fool Oversight](https://arxiv.org/abs/2504.07831) — Lermen et al. (2025) |
 | 14 | Philosophy of Causal Explanation | *Making Things Happen*, selected chapters — Woodward (2003) |
 | 15 | Interpretability and Existential Risk | [Is Power-Seeking AI an Existential Risk?](https://arxiv.org/abs/2206.13353), selected sections — Carlsmith (2022–2024) |
 
