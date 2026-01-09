@@ -1,5 +1,5 @@
 ---
-title: "AI Interpretability: Meaning, Methods, and Limitations"
+title: "AI Interpretability: Meaning, Methods, and Limits"
 subtitle: "Graduate Reading Group (UC Berkeley, Spring 2026)"
 format:
   html:
@@ -25,7 +25,7 @@ format:
 
 **Meeting Details:** TBD; please indicate your availability via the [RSVP form](https://forms.gle/WBqohweBJutZSQ7b7).
 
-**Course credit:** We can enroll a limited number of students for up to 2 units of course credit. The requirement for course credit is regular attendance plus a project submitted during RRR week. Please indicate your interest via the [RSVP form](https://forms.gle/WBqohweBJutZSQ7b7).
+**Course credit:** We can enroll a limited number of students for up to 2 units of course credit. The requirement for course credit is regular attendance plus presenting a paper at one session. Please indicate your interest via the [RSVP form](https://forms.gle/WBqohweBJutZSQ7b7).
 
 
 ## Description

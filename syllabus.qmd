@@ -1,5 +1,5 @@
 ---
-title: "AI Interpretability: Meaning, Methods, and Limitations"
+title: "AI Interpretability: Meaning, Methods, and Limits"
 subtitle: "Graduate Reading Group (UC Berkeley, Spring 2026)"
 format:
   html:
