@@ -32,7 +32,7 @@ format:
 
 This is an interdisciplinary reading group organized around the question:
 
-> **What kinds of interpretability claims are meaningful and reliable as AI systems become more capable and are deployed in higher-stakes contexts?**
+> **What kinds of interpretability claims are meaningful, useful, and reliable as AI systems become more capable and are deployed in higher-stakes contexts?**
 
 We will study interpretability as a *scientific and safety-relevant practice*: a collection of methods, epistemic standards, and theory-of-change assumptions aimed at gaining traction on the internal structure of modern ML systems in ways that could plausibly matter for oversight, control, and alignment. Questions include:
 
@@ -48,7 +48,7 @@ By the end of this course, participants should be able to:
 1. **Distinguish** different senses of "interpretability" and "understanding"
 2. **Evaluate** mechanistic claims in light of causal and robustness criteria
 3. **Recognize** when interpretability evidence is strong, weak, or misleading
-4. **Articulate** realistic theories of change connecting interpretability to AI risk mitigation
+4. **Articulate and critique** realistic theories of change connecting interpretability to AI risk mitigation
 
 ### Assumed background
 
@@ -59,7 +59,6 @@ We welcome broad interdisciplinary participation, but our curriculum is designed
 - Background in one or more relevant fields such as statistics, philosophy, causal inference, or cognitive science
 
 No prior interpretability research experience is required.
-
 
 
 ## Tentative Reading Schedule
@@ -74,7 +73,7 @@ The reading list below may be revised according to participant interests.
 |------|-------|-------|---------|
 | 1 | Jan 20–23 | Framing Interpretability | [Towards a Rigorous Science of Interpretable Machine Learning](https://arxiv.org/abs/1702.08608) — Doshi-Velez & Kim (2017) |
 | 2 | Jan 27–30 | Interpretability in Neuroscience | [Crafting Interpretable Embeddings for Language Neuroscience by Asking LLMs Questions](https://pmc.ncbi.nlm.nih.gov/articles/PMC12021422/) — Benara et al. (2025) + [Predictive Coding or Just Feature Discovery?](https://direct.mit.edu/nol/article/5/1/64/113632/Predictive-Coding-or-Just-Feature-Discovery-An) — Antonello & Huth (2025)|
-| 3 | Feb 3–6 | Mechanistic Interpretability | [Zoom In: Circuits](https://distill.pub/2020/circuits/) — Olah et al. (2020) |
+| 3 | Feb 3–6 | Mechanistic Interpretability | [Zoom In: Circuits](https://distill.pub/2020/circuits/zoom-in) — Olah et al. (2020) |
 | 4 | Feb 10–13 | Interpretability as Safety Strategy | [A Pragmatic Vision for Interpretability](https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability) + [How Can Interpretability Researchers Help AGI Go Well?](https://www.alignmentforum.org/posts/MnkeepcGirnJn736j/how-can-interpretability-researchers-help-agi-go-well) — Nanda (2025) |
 
 ### Part II: Methods (Weeks 5–13)
@@ -96,7 +95,7 @@ The reading list below may be revised according to participant interests.
 
 ### Part III: Limits (Weeks 14–15)
 
-*When does interpretability evidence support counterfactual reasoning? Given its limits, what role can interpretability play in reducing catastrophic risk?*
+*Given its limits, what role can interpretability play in reducing catastrophic risk?*
 
 | Week | Dates | Topic | Reading |
 |------|-------|-------|---------|

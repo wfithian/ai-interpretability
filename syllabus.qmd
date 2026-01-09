@@ -70,7 +70,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 - *How Can Interpretability Researchers Help AGI Go Well?*
   <https://www.alignmentforum.org/posts/MnkeepcGirnJn736j/how-can-interpretability-researchers-help-agi-go-well>
 
-*Agenda-setting essays that articulate a pragmatic, safety-oriented theory of change for interpretability research.*
+*Agenda-setting essays that question the most ambitious goals of mechanistic interpretability and articulate a pragmatic, safety-oriented theory of change for interpretability research.*
 
 ---
 
@@ -110,7 +110,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 : Anthropic Interpretability Team
 : <https://www.anthropic.com/research/persona-vectors>
 
-*Together, these readings show that important model behaviors can be mediated by low-dimensional structure in activation space. The refusal paper provides a crisp mechanistic result for a single high-stakes behavior, while persona vectors generalize this idea to broader, more persistent behavioral traits and recast interpretability as monitoring and oversight infrastructure. This week sets up later discussions about robustness, abstraction, and the limits of behavioral interpretability.*
+*Together, these readings show how important model behaviors can be mediated by low-dimensional structure in activation space.*
 
 ### Week 8 (Mar 10–13) — Machine Unlearning
 
@@ -118,7 +118,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 : Pratyush Maini et al.
 : <https://arxiv.org/abs/2401.06121>
 
-*Benchmark and evaluation suite for LLM unlearning; clarifies what it would mean to behave as if certain data were never learned.*
+*Benchmark and evaluation suite for LLM unlearning; studies what it would mean to behave as if certain data were never learned.*
 
 ### Week 9 (Mar 17–20) — Latent Knowledge
 
@@ -126,7 +126,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 : Collin Burns et al.
 : <https://arxiv.org/abs/2212.03827>
 
-*Extracts truth-related structure from activations to separate what models know from what they say; foundational for oversight.*
+*Extracts truth-related structure from activations to separate what models know from what they say.*
 
 *Spring recess: Mar 23–27*
 
@@ -136,7 +136,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 : Lawrence Chan et al.
 : <https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing>
 
-*Behavior-preserving resampling ablations as a principled way to test mechanistic hypotheses (interpretation as a falsifiable causal claim).*
+*Behavior-preserving resampling ablations as a way to test mechanistic hypotheses (interpretation as a falsifiable causal claim).*
 
 ### Week 11 (Apr 7–10) — Causal Abstractions
 
@@ -172,7 +172,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 : Evan Hubinger et al.
 : <https://arxiv.org/abs/1906.01820>
 
-*Classic account of mesa-optimization and deceptive alignment; essential for understanding interpretability's limits.*
+*Classic paper on adversarial AI behavior and deceptive alignment.*
 
 ### Week 15 (May 5–8) — Deceptive Interpretability
 
