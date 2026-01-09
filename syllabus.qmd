@@ -1,6 +1,6 @@
 ---
 title: "AI Interpretability: Meaning, Methods, and Limitations"
-subtitle: "Graduate Reading Group — UC Berkeley — Spring 2026"
+subtitle: "Graduate Reading Group (UC Berkeley, Spring 2026)"
 format:
   html:
     theme: cosmo
@@ -12,20 +12,26 @@ format:
     css: styles.css
 ---
 
+::: {.callout-tip title="Interested?"}
+- [RSVP for this reading group](https://forms.gle/WBqohweBJutZSQ7b7) to indicate your interest and availability.
+- [Discover other programming](https://berkeley-ai-risk.github.io) from Berkeley's AI Risk group, or [join the mailing list](https://forms.gle/LnzZKT5FR5c7nGKc8)
+:::
+
+## Curriculum structure
 
 The course follows the arc of its title:
 
-- **Part I: Meaning and Orientation** (Weeks 1–3) — What is interpretability for? What kinds of questions can it answer?
-- **Part II: Methods, Interventions, and Internal Structure** (Weeks 4–10) — What can we actually do with real models, and what kinds of causal claims follow?
-- **Part III: Limits, Evaluation, and Stakes** (Weeks 11–15) — When does interpretability work, and what role should it play in mitigating AI risk?
+- **Part I: Meaning** (Weeks 1–4) — What is interpretability for? What kinds of questions can it answer?
+- **Part II: Methods** (Weeks 5–13) — What can we actually do with real models, and what kinds of causal claims follow?
+- **Part III: Limits** (Weeks 14–15) — When does interpretability work, and what role should it play in mitigating AI risk?
 
-The schedule below is tentative. Please do not hesitate to contact Will Fithian ([wfithian@berkeley.edu](mailto:wfithian@berkeley.edu)) or Wes Holliday ([wesholliday@berkeley.edu](mailto:wesholliday@berkeley.edu)) if you have additional papers or topics to suggest.
+The schedule below is tentative. Please do not hesitate to contact Will Fithian ([wfithian@berkeley.edu](mailto:wfithian@berkeley.edu)) if you have additional papers or topics to suggest.
 
 ---
 
-## Part I: Meaning and Orientation
+## Part I: Meaning
 
-### Week 1 — Framing Interpretability
+### Week 1 (Jan 20–23) — Framing Interpretability
 
 **Towards a Rigorous Science of Interpretable Machine Learning** (2017)
 : Finale Doshi-Velez & Been Kim
@@ -33,7 +39,21 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Introduces a taxonomy of interpretability goals, audiences, and evaluation criteria; frames interpretability as an epistemic problem.*
 
-### Week 2 — Mechanistic Interpretability and Circuits
+### Week 2 (Jan 27–30) — Interpretability in Neuroscience
+
+**Crafting Interpretable Embeddings for Language Neuroscience by Asking LLMs Questions** (2025)
+: Kushal Benara et al.
+: <https://pmc.ncbi.nlm.nih.gov/articles/PMC12021422/>
+
+*Uses LLM-generated questions to build interpretable feature spaces for predicting brain activity from language stimuli.*
+
+**Predictive Coding or Just Feature Discovery? An Alternative Account of Why Language Models Fit Brain Data** (2025)
+: Richard Antonello & Alexander Huth
+: <https://direct.mit.edu/nol/article/5/1/64/113632/Predictive-Coding-or-Just-Feature-Discovery-An>
+
+*Challenges the interpretation that LLM–brain alignment reflects predictive coding, arguing it may reflect shared feature discovery instead.*
+
+### Week 3 (Feb 3–6) — Mechanistic Interpretability and Circuits
 
 **Zoom In: Circuits** (2020)
 : Chris Olah et al.
@@ -41,7 +61,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Canonical introduction to mechanistic interpretability, circuit-based explanations, and feature-level analysis.*
 
-### Week 3 — Interpretability as a Safety Strategy
+### Week 4 (Feb 10–13) — Interpretability as a Safety Strategy
 
 **Neel Nanda** (2025)
 
@@ -54,9 +74,9 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 ---
 
-## Part II: Methods, Interventions, and Internal Structure
+## Part II: Methods
 
-### Week 4 — Causal Intervention in Practice
+### Week 5 (Feb 17–20) — Causal Intervention in Practice
 
 **Locating and Editing Factual Associations in GPT** (NeurIPS 2022)
 : Kevin Meng et al.
@@ -65,8 +85,14 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *ROME: causal tracing to identify where factual associations live in transformer computation, and targeted weight editing to modify them.*
 
+**How to Use and Interpret Activation Patching** (2024)
+: Stefan Heimersheim & Neel Nanda
+: <https://arxiv.org/abs/2404.15255>
 
-### Week 5 — Steering Vectors
+*Practical guide to activation patching methodology, clarifying when and how causal interventions yield meaningful interpretability claims.*
+
+
+### Week 6 (Feb 24–27) — Steering Vectors
 
 **Steering Language Models With Activation Engineering** (2023)
 : Alexander Matt Turner et al.
@@ -74,7 +100,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Activation Addition (ActAdd): inference-time steering by adding activation-space directions computed from prompt pairs; foundational steering method.*
 
-### Week 6 — Behavioral Directions and Internal State Variables
+### Week 7 (Mar 3–6) — Behavioral Directions and Internal State Variables
 
 **Refusal in Language Models Is Mediated by a Single Direction** (2024)
 : Yoni Arditi, Neel Nanda et al.
@@ -86,7 +112,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Together, these readings show that important model behaviors can be mediated by low-dimensional structure in activation space. The refusal paper provides a crisp mechanistic result for a single high-stakes behavior, while persona vectors generalize this idea to broader, more persistent behavioral traits and recast interpretability as monitoring and oversight infrastructure. This week sets up later discussions about robustness, abstraction, and the limits of behavioral interpretability.*
 
-### Week 7 — Machine Unlearning
+### Week 8 (Mar 10–13) — Machine Unlearning
 
 **TOFU: A Task of Fictitious Unlearning for LLMs** (2024)
 : Pratyush Maini et al.
@@ -94,7 +120,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Benchmark and evaluation suite for LLM unlearning; clarifies what it would mean to behave as if certain data were never learned.*
 
-### Week 8 — Latent Knowledge
+### Week 9 (Mar 17–20) — Latent Knowledge
 
 **Discovering Latent Knowledge in Language Models Without Supervision** (ICLR 2023; arXiv 2022)
 : Collin Burns et al.
@@ -102,7 +128,9 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Extracts truth-related structure from activations to separate what models know from what they say; foundational for oversight.*
 
-### Week 9 — Causal Scrubbing
+*Spring recess: Mar 23–27*
+
+### Week 10 (Mar 31–Apr 3) — Causal Scrubbing
 
 **Causal Scrubbing: A Method for Rigorously Testing Mechanistic Interpretability Hypotheses** (2022)
 : Lawrence Chan et al.
@@ -110,7 +138,23 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Behavior-preserving resampling ablations as a principled way to test mechanistic hypotheses (interpretation as a falsifiable causal claim).*
 
-### Week 10 — Large-Scale Mechanistic Interpretability
+### Week 11 (Apr 7–10) — Causal Abstractions
+
+**Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability** (2023–2025)
+: Atticus Geiger et al.
+: <https://arxiv.org/abs/2301.04709>
+
+*Develops formal criteria for when mechanistic explanations support valid higher-level causal abstractions, grounding interpretability claims in intervention semantics.*
+
+### Week 12 (Apr 14–17) — Sparse Auto-encoders
+
+**Towards Monosemanticity: Decomposing Language Models With Dictionary Learning** (2023)
+: Anthropic Interpretability Team
+: <https://transformer-circuits.pub/2023/monosemantic-features>
+
+*Uses sparse dictionary learning to decompose MLP activations into interpretable, monosemantic features; foundational method for scalable mechanistic interpretability.*
+
+### Week 13 (Apr 21–24) — Large-Scale Mechanistic Interpretability
 
 **On the Biology of a Large Language Model** (2025)
 : Anthropic Interpretability Team
@@ -120,9 +164,9 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 ---
 
-## Part III: Limits, Evaluation, and Stakes
+## Part III: Limits
 
-### Week 11 — Mesa-Optimization and Deceptive Alignment
+### Week 14 (Apr 28–May 1) — Mesa-Optimization and Deceptive Alignment
 
 **Risks from Learned Optimization in Advanced ML Systems** (2019)
 : Evan Hubinger et al.
@@ -130,36 +174,13 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Classic account of mesa-optimization and deceptive alignment; essential for understanding interpretability's limits.*
 
-### Week 12 — Deceptive Interpretability
+### Week 15 (May 5–8) — Deceptive Interpretability
 
 **Deceptive Automated Interpretability: Language Models Coordinating to Fool Oversight Systems** (2025)
 : Simon Lermen, Mateusz Dziemian, Natalia Pérez-Campanero Antolín
 : <https://arxiv.org/abs/2504.07831>
 
 *Shows how models/agents can produce deceptive explanations that evade automated interpretability-based oversight; stress-tests interpretability as safety infrastructure.*
-
-### Week 13 — Philosophy of Causal Explanation
-
-**Making Things Happen** (2003), selected chapters
-: James Woodward
-
-*Philosophical grounding for causal explanation and intervention.*
-
-### Week 14 — Causal Abstractions
-
-**Causal Abstractions of Neural Networks** (2023)
-: Atticus Geiger, DeepMind et al.
-: <https://arxiv.org/abs/2303.02536>
-
-*Asks whether mechanistic interpretability explanations support valid higher-level causal abstractions. Develops formal criteria for abstraction-preserving interventions and shows that many mechanistic stories fail to license the explanations they appear to offer.*
-
-### Week 15 — Interpretability and Existential Risk
-
-**Is Power-Seeking AI an Existential Risk?** (2022–2024), selected sections
-: Joseph Carlsmith
-: <https://arxiv.org/abs/2206.13353>
-
-*Situates interpretability within alignment, governance, and long-term AI risk.*
 
 ---
 
@@ -172,4 +193,3 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 ### Discussion
 - Active participation is expected; the value of the group depends on collective engagement
 - Discussions will focus on: What does this paper claim? How do we evaluate those claims? What are the implications for AI safety?
-
