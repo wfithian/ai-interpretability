@@ -71,7 +71,7 @@ The reading list below may be revised according to participant interests.
 
 | Week | Dates | Topic | Reading |
 |------|-------|-------|---------|
-| 1 | Jan 20–23 | Framing Interpretability | [Towards a Rigorous Science of Interpretable Machine Learning](https://arxiv.org/abs/1702.08608) — Doshi-Velez & Kim (2017) |
+| 1 | Jan 20–23 | Interpretability and AI Safety | [Mechanistic Interpretability and AI Safety: A Review](https://arxiv.org/html/2404.14082v3) — Bereska & Gavves (2024), sections 1-2 and 6-8 (secs 3-5 optional) |
 | 2 | Jan 27–30 | Interpretability in Neuroscience | [Crafting Interpretable Embeddings for Language Neuroscience by Asking LLMs Questions](https://pmc.ncbi.nlm.nih.gov/articles/PMC12021422/) — Benara et al. (2025) + [Predictive Coding or Just Feature Discovery?](https://direct.mit.edu/nol/article/5/1/64/113632/Predictive-Coding-or-Just-Feature-Discovery-An) — Antonello & Huth (2025)|
 | 3 | Feb 3–6 | Mechanistic Interpretability | [Zoom In: Circuits](https://distill.pub/2020/circuits/zoom-in) — Olah et al. (2020) |
 | 4 | Feb 10–13 | Interpretability as Safety Strategy | [A Pragmatic Vision for Interpretability](https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability) + [How Can Interpretability Researchers Help AGI Go Well?](https://www.alignmentforum.org/posts/MnkeepcGirnJn736j/how-can-interpretability-researchers-help-agi-go-well) — Nanda (2025) |
@@ -84,7 +84,7 @@ The reading list below may be revised according to participant interests.
 |------|-------|-------|---------|
 | 5 | Feb 17–20 | Causal Intervention (ROME) | [Locating and Editing Factual Associations in GPT](https://arxiv.org/abs/2202.05262) — Meng et al. (NeurIPS 2022) + [How to use and interpret activation patching](https://arxiv.org/pdf/2404.15255) — Heimersheim & Nanda (2024)|
 | 6 | Feb 24–27 | Steering Vectors | [Steering Language Models With Activation Engineering](https://arxiv.org/abs/2308.10248) — Turner et al. (2023) |
-| 7 | Mar 3–6 | Behavioral Directions | [Refusal in LLMs Is Mediated by a Single Direction](https://arxiv.org/abs/2402.07896) — Arditi et al. (2024) + [Persona Vectors](https://www.anthropic.com/research/persona-vectors) — Anthropic (2025) |
+| 7 | Mar 3–6 | Behavioral Directions | [Refusal in LLMs Is Mediated by a Single Direction](https://arxiv.org/abs/2406.11717) — Arditi et al. (2024) + [Persona Vectors](https://www.anthropic.com/research/persona-vectors) — Anthropic (2025) |
 | 8 | Mar 10–13 | Machine Unlearning | [TOFU: A Task of Fictitious Unlearning for LLMs](https://arxiv.org/abs/2401.06121) — Maini et al. (2024) |
 | 9 | Mar 17–20 | Latent Knowledge | [Discovering Latent Knowledge in Language Models Without Supervision](https://arxiv.org/abs/2212.03827) — Burns et al. (ICLR 2023) |
 | | *Mar 23–27* | *Spring recess* | |

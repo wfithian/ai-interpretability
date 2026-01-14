@@ -33,11 +33,11 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 ### Week 1 (Jan 20–23) — Framing Interpretability
 
-**Towards a Rigorous Science of Interpretable Machine Learning** (2017)
-: Finale Doshi-Velez & Been Kim
-: <https://arxiv.org/abs/1702.08608>
+**Mechanistic Interpretability and AI Safety: A Review** (2024)
+: Leonard Bereska & Efstratios Gavves
+: <https://arxiv.org/html/2404.14082v3>
 
-*Introduces a taxonomy of interpretability goals, audiences, and evaluation criteria; frames interpretability as an epistemic problem.*
+*Introduces concepts and goals of mechanistic interpretability, its relevance to AI safety, and its challenges and limitations as a safety strategy.*
 
 ### Week 2 (Jan 27–30) — Interpretability in Neuroscience
 
@@ -57,7 +57,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 **Zoom In: Circuits** (2020)
 : Chris Olah et al.
-: <https://distill.pub/2020/circuits/>
+: <https://distill.pub/2020/circuits/zoom-in>
 
 *Canonical introduction to mechanistic interpretability, circuit-based explanations, and feature-level analysis.*
 
@@ -104,7 +104,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 **Refusal in Language Models Is Mediated by a Single Direction** (2024)
 : Yoni Arditi, Neel Nanda et al.
-: <https://arxiv.org/abs/2402.07896>
+: <https://arxiv.org/abs/2406.11717>
 
 **Persona Vectors: Monitoring and Steering Model Behavior** (2025)
 : Anthropic Interpretability Team
