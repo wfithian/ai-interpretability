@@ -13,7 +13,7 @@ format:
 ---
 
 ::: {.callout-tip title="Interested?"}
-- [RSVP for this reading group](https://forms.gle/WBqohweBJutZSQ7b7) to indicate your interest and availability.
+- [RSVP for this reading group](https://forms.gle/WBqohweBJutZSQ7b7) to indicate your interest.
 - [Discover other programming](https://berkeley-ai-risk.github.io) from Berkeley's AI Risk group, or [join the mailing list](https://forms.gle/LnzZKT5FR5c7nGKc8)
 :::
 
@@ -23,9 +23,9 @@ format:
 
 **Organizers:** Will Fithian (Statistics), Wes Holliday (Philosophy), and Sean Richardson (Statistics PhD student)
 
-**Meeting Details:** TBD; please indicate your availability via the [RSVP form](https://forms.gle/WBqohweBJutZSQ7b7).
+**Meeting Details:** Fridays 1-2:30pm, in Physics 2.
 
-**Course credit:** We can enroll a limited number of students for up to 2 units of course credit. The requirement for course credit is regular attendance plus presenting a paper at one session. Please indicate your interest via the [RSVP form](https://forms.gle/WBqohweBJutZSQ7b7).
+**Course credit:** We can enroll a limited number of students for up to 2 units of course credit. The requirement for course credit is regular attendance plus presenting a paper at one session. The course listing will appear in the course catalog within a few days.
 
 
 ## Description
@@ -69,29 +69,29 @@ The reading list below may be revised according to participant interests.
 
 *What is interpretability for? What kinds of questions can it answer? How do mechanistic explanations differ from post-hoc rationalizations?*
 
-| Week | Dates | Topic | Reading |
+| Week | Date | Topic | Reading |
 |------|-------|-------|---------|
-| 1 | Jan 20–23 | Interpretability and AI Safety | [Mechanistic Interpretability and AI Safety: A Review](https://arxiv.org/html/2404.14082v3) — Bereska & Gavves (2024), sections 1-2 and 6-8 (secs 3-5 optional) |
-| 2 | Jan 27–30 | Interpretability in Neuroscience | [Crafting Interpretable Embeddings for Language Neuroscience by Asking LLMs Questions](https://pmc.ncbi.nlm.nih.gov/articles/PMC12021422/) — Benara et al. (2025) + [Predictive Coding or Just Feature Discovery?](https://direct.mit.edu/nol/article/5/1/64/113632/Predictive-Coding-or-Just-Feature-Discovery-An) — Antonello & Huth (2025)|
-| 3 | Feb 3–6 | Mechanistic Interpretability | [Zoom In: Circuits](https://distill.pub/2020/circuits/zoom-in) — Olah et al. (2020) |
-| 4 | Feb 10–13 | Interpretability as Safety Strategy | [A Pragmatic Vision for Interpretability](https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability) + [How Can Interpretability Researchers Help AGI Go Well?](https://www.alignmentforum.org/posts/MnkeepcGirnJn736j/how-can-interpretability-researchers-help-agi-go-well) — Nanda (2025) |
+| 1 | Jan 23 | Interpretability and AI Safety | [Mechanistic Interpretability and AI Safety: A Review](https://arxiv.org/html/2404.14082v3) — Bereska & Gavves (2024), sections 1-2 and 6-8 (secs 3-5 optional) |
+| 2 | Jan 30 | Interpretability in Neuroscience | [Crafting Interpretable Embeddings for Language Neuroscience by Asking LLMs Questions](https://pmc.ncbi.nlm.nih.gov/articles/PMC12021422/) — Benara et al. (2025) + [Predictive Coding or Just Feature Discovery?](https://direct.mit.edu/nol/article/5/1/64/113632/Predictive-Coding-or-Just-Feature-Discovery-An) — Antonello & Huth (2025)|
+| 3 | Feb 6 | Mechanistic Interpretability | [Zoom In: Circuits](https://distill.pub/2020/circuits/zoom-in) — Olah et al. (2020) |
+| 4 | Feb 13 | Interpretability as Safety Strategy | [A Pragmatic Vision for Interpretability](https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability) + [How Can Interpretability Researchers Help AGI Go Well?](https://www.alignmentforum.org/posts/MnkeepcGirnJn736j/how-can-interpretability-researchers-help-agi-go-well) — Nanda (2025) |
 
 ### Part II: Methods (Weeks 5–13)
 
 *What can interpretability methods actually do with real models? When does an intervention support an explanatory claim, and when is it merely a control knob?*
 
-| Week | Dates | Topic | Reading |
+| Week | Date | Topic | Reading |
 |------|-------|-------|---------|
-| 5 | Feb 17–20 | Causal Intervention (ROME) | [Locating and Editing Factual Associations in GPT](https://arxiv.org/abs/2202.05262) — Meng et al. (NeurIPS 2022) + [How to use and interpret activation patching](https://arxiv.org/pdf/2404.15255) — Heimersheim & Nanda (2024)|
-| 6 | Feb 24–27 | Steering Vectors | [Steering Language Models With Activation Engineering](https://arxiv.org/abs/2308.10248) — Turner et al. (2023) |
-| 7 | Mar 3–6 | Behavioral Directions | [Refusal in LLMs Is Mediated by a Single Direction](https://arxiv.org/abs/2406.11717) — Arditi et al. (2024) + [Persona Vectors](https://www.anthropic.com/research/persona-vectors) — Anthropic (2025) |
-| 8 | Mar 10–13 | Machine Unlearning | [TOFU: A Task of Fictitious Unlearning for LLMs](https://arxiv.org/abs/2401.06121) — Maini et al. (2024) |
-| 9 | Mar 17–20 | Latent Knowledge | [Discovering Latent Knowledge in Language Models Without Supervision](https://arxiv.org/abs/2212.03827) — Burns et al. (ICLR 2023) |
+| 5 | Feb 20 | Causal Intervention (ROME) | [Locating and Editing Factual Associations in GPT](https://arxiv.org/abs/2202.05262) — Meng et al. (NeurIPS 2022) + [How to use and interpret activation patching](https://arxiv.org/pdf/2404.15255) — Heimersheim & Nanda (2024)|
+| 6 | Feb 27 | Steering Vectors | [Steering Language Models With Activation Engineering](https://arxiv.org/abs/2308.10248) — Turner et al. (2023) |
+| 7 | Mar 6 | Behavioral Directions | [Refusal in LLMs Is Mediated by a Single Direction](https://arxiv.org/abs/2406.11717) — Arditi et al. (2024) + [Persona Vectors](https://www.anthropic.com/research/persona-vectors) — Anthropic (2025) |
+| 8 | Mar 13 | Machine Unlearning | [TOFU: A Task of Fictitious Unlearning for LLMs](https://arxiv.org/abs/2401.06121) — Maini et al. (2024) |
+| 9 | Mar 20 | Latent Knowledge | [Discovering Latent Knowledge in Language Models Without Supervision](https://arxiv.org/abs/2212.03827) — Burns et al. (ICLR 2023) |
 | | *Mar 23–27* | *Spring recess* | |
-| 10 | Mar 31–Apr 3 | Causal Scrubbing | [Causal Scrubbing: Rigorously Testing Mechanistic Hypotheses](https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing) — Chan et al. (2022) |
-| 11 | Apr 7–10 | Causal Abstractions | [Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability](https://arxiv.org/abs/2301.04709) — Geiger et al. (2023–2025) |
-| 12 | Apr 14–17 | Sparse Auto-encoders | [Towards Monosemanticity: Decomposing Language Models With Dictionary Learning](https://transformer-circuits.pub/2023/monosemantic-features) |
-| 13 | Apr 21–24 | Large-Scale Mechanistic Interp | [On the Biology of a Large Language Model](https://www.anthropic.com/research/biology-of-a-large-language-model) — Anthropic (2025) |
+| 10 | Apr 3 | Causal Scrubbing | [Causal Scrubbing: Rigorously Testing Mechanistic Hypotheses](https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing) — Chan et al. (2022) |
+| 11 | Apr 10 | Causal Abstractions | [Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability](https://arxiv.org/abs/2301.04709) — Geiger et al. (2023–2025) |
+| 12 | Apr 17 | Sparse Auto-encoders | [Towards Monosemanticity: Decomposing Language Models With Dictionary Learning](https://transformer-circuits.pub/2023/monosemantic-features) |
+| 13 | Apr 24 | Large-Scale Mechanistic Interp | [On the Biology of a Large Language Model](https://www.anthropic.com/research/biology-of-a-large-language-model) — Anthropic (2025) |
 
 ### Part III: Limits (Weeks 14–15)
 
@@ -99,8 +99,8 @@ The reading list below may be revised according to participant interests.
 
 | Week | Dates | Topic | Reading |
 |------|-------|-------|---------|
-| 14 | Apr 28–May 1 | Mesa-Optimization | [Risks from Learned Optimization in Advanced ML Systems](https://arxiv.org/abs/1906.01820) — Hubinger et al. (2019) |
-| 15 | May 5–8 | Deceptive Interpretability | [Deceptive Automated Interpretability: LMs Coordinating to Fool Oversight](https://arxiv.org/abs/2504.07831) — Lermen et al. (2025) |
+| 14 | May 1 | Mesa-Optimization | [Risks from Learned Optimization in Advanced ML Systems](https://arxiv.org/abs/1906.01820) — Hubinger et al. (2019) |
+| 15 | May 8 | Deceptive Interpretability | [Deceptive Automated Interpretability: LMs Coordinating to Fool Oversight](https://arxiv.org/abs/2504.07831) — Lermen et al. (2025) |
 
 See the [full syllabus](syllabus.qmd) for paper summaries and additional context.
 

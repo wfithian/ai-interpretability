@@ -13,7 +13,7 @@ format:
 ---
 
 ::: {.callout-tip title="Interested?"}
-- [RSVP for this reading group](https://forms.gle/WBqohweBJutZSQ7b7) to indicate your interest and availability.
+- [RSVP for this reading group](https://forms.gle/WBqohweBJutZSQ7b7) to indicate your interest.
 - [Discover other programming](https://berkeley-ai-risk.github.io) from Berkeley's AI Risk group, or [join the mailing list](https://forms.gle/LnzZKT5FR5c7nGKc8)
 :::
 
@@ -31,7 +31,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 ## Part I: Meaning
 
-### Week 1 (Jan 20–23) — Framing Interpretability
+### Week 1 (Jan 23) — Framing Interpretability
 
 **Mechanistic Interpretability and AI Safety: A Review** (2024)
 : Leonard Bereska & Efstratios Gavves
@@ -39,7 +39,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Introduces concepts and goals of mechanistic interpretability, its relevance to AI safety, and its challenges and limitations as a safety strategy.*
 
-### Week 2 (Jan 27–30) — Interpretability in Neuroscience
+### Week 2 (Jan 30) — Interpretability in Neuroscience
 
 **Crafting Interpretable Embeddings for Language Neuroscience by Asking LLMs Questions** (2025)
 : Kushal Benara et al.
@@ -53,7 +53,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Challenges the interpretation that LLM–brain alignment reflects predictive coding, arguing it may reflect shared feature discovery instead.*
 
-### Week 3 (Feb 3–6) — Mechanistic Interpretability and Circuits
+### Week 3 (Feb 6) — Mechanistic Interpretability and Circuits
 
 **Zoom In: Circuits** (2020)
 : Chris Olah et al.
@@ -61,7 +61,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Canonical introduction to mechanistic interpretability, circuit-based explanations, and feature-level analysis.*
 
-### Week 4 (Feb 10–13) — Interpretability as a Safety Strategy
+### Week 4 (Feb 13) — Interpretability as a Safety Strategy
 
 **Neel Nanda** (2025)
 
@@ -76,7 +76,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 ## Part II: Methods
 
-### Week 5 (Feb 17–20) — Causal Intervention in Practice
+### Week 5 (Feb 20) — Causal Intervention in Practice
 
 **Locating and Editing Factual Associations in GPT** (NeurIPS 2022)
 : Kevin Meng et al.
@@ -92,7 +92,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 *Practical guide to activation patching methodology, clarifying when and how causal interventions yield meaningful interpretability claims.*
 
 
-### Week 6 (Feb 24–27) — Steering Vectors
+### Week 6 (Feb 27) — Steering Vectors
 
 **Steering Language Models With Activation Engineering** (2023)
 : Alexander Matt Turner et al.
@@ -100,7 +100,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Activation Addition (ActAdd): inference-time steering by adding activation-space directions computed from prompt pairs; foundational steering method.*
 
-### Week 7 (Mar 3–6) — Behavioral Directions and Internal State Variables
+### Week 7 (Mar 6) — Behavioral Directions and Internal State Variables
 
 **Refusal in Language Models Is Mediated by a Single Direction** (2024)
 : Yoni Arditi, Neel Nanda et al.
@@ -112,7 +112,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Together, these readings show how important model behaviors can be mediated by low-dimensional structure in activation space.*
 
-### Week 8 (Mar 10–13) — Machine Unlearning
+### Week 8 (Mar 13) — Machine Unlearning
 
 **TOFU: A Task of Fictitious Unlearning for LLMs** (2024)
 : Pratyush Maini et al.
@@ -120,7 +120,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Benchmark and evaluation suite for LLM unlearning; studies what it would mean to behave as if certain data were never learned.*
 
-### Week 9 (Mar 17–20) — Latent Knowledge
+### Week 9 (Mar 20) — Latent Knowledge
 
 **Discovering Latent Knowledge in Language Models Without Supervision** (ICLR 2023; arXiv 2022)
 : Collin Burns et al.
@@ -138,7 +138,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Behavior-preserving resampling ablations as a way to test mechanistic hypotheses (interpretation as a falsifiable causal claim).*
 
-### Week 11 (Apr 7–10) — Causal Abstractions
+### Week 11 (Apr 10) — Causal Abstractions
 
 **Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability** (2023–2025)
 : Atticus Geiger et al.
@@ -146,7 +146,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Develops formal criteria for when mechanistic explanations support valid higher-level causal abstractions, grounding interpretability claims in intervention semantics.*
 
-### Week 12 (Apr 14–17) — Sparse Auto-encoders
+### Week 12 (Apr 17) — Sparse Auto-encoders
 
 **Towards Monosemanticity: Decomposing Language Models With Dictionary Learning** (2023)
 : Anthropic Interpretability Team
@@ -154,7 +154,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Uses sparse dictionary learning to decompose MLP activations into interpretable, monosemantic features; foundational method for scalable mechanistic interpretability.*
 
-### Week 13 (Apr 21–24) — Large-Scale Mechanistic Interpretability
+### Week 13 (Apr 24) — Large-Scale Mechanistic Interpretability
 
 **On the Biology of a Large Language Model** (2025)
 : Anthropic Interpretability Team
@@ -166,7 +166,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 ## Part III: Limits
 
-### Week 14 (Apr 28–May 1) — Mesa-Optimization and Deceptive Alignment
+### Week 14 (May 1) — Mesa-Optimization and Deceptive Alignment
 
 **Risks from Learned Optimization in Advanced ML Systems** (2019)
 : Evan Hubinger et al.
@@ -174,7 +174,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Classic paper on adversarial AI behavior and deceptive alignment.*
 
-### Week 15 (May 5–8) — Deceptive Interpretability
+### Week 15 (May 8) — Deceptive Interpretability
 
 **Deceptive Automated Interpretability: Language Models Coordinating to Fool Oversight Systems** (2025)
 : Simon Lermen, Mateusz Dziemian, Natalia Pérez-Campanero Antolín
