@@ -39,6 +39,10 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 *Introduces concepts and goals of mechanistic interpretability, its relevance to AI safety, and its challenges and limitations as a safety strategy.*
 
+**(Optional) The Urgency of Interpretability** (2025)
+: Dario Amodei
+: <https://www.darioamodei.com/post/the-urgency-of-interpretability>
+
 ### Week 2 (Jan 30) — Interpretability in Neuroscience
 
 **Crafting Interpretable Embeddings for Language Neuroscience by Asking LLMs Questions** (2025)
