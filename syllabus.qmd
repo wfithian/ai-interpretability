@@ -33,7 +33,7 @@ The schedule below is tentative. Please do not hesitate to contact Will Fithian 
 
 ### Week 1 (Jan 23) — Framing Interpretability
 
-**Mechanistic Interpretability and AI Safety: A Review** (2024)
+**Mechanistic Interpretability and AI Safety: A Review (Sections 1-2, 6-8; optionally sections 3-5)** (2024)
 : Leonard Bereska & Efstratios Gavves
 : <https://arxiv.org/html/2404.14082v3>
 
