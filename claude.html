@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>AI Interpretability: Meaning, Methods, and Limits – AI Interpretability</title>
+<title>claude – AI Interpretability</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -19,6 +19,41 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -72,7 +107,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="floating nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -90,7 +125,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -111,266 +146,66 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Contents</h2>
-   
-  <ul>
-  <li><a href="#logistics" id="toc-logistics" class="nav-link active" data-scroll-target="#logistics">Logistics</a></li>
-  <li><a href="#description" id="toc-description" class="nav-link" data-scroll-target="#description">Description</a>
-  <ul class="collapse">
-  <li><a href="#learning-objectives" id="toc-learning-objectives" class="nav-link" data-scroll-target="#learning-objectives">Learning objectives</a></li>
-  <li><a href="#assumed-background" id="toc-assumed-background" class="nav-link" data-scroll-target="#assumed-background">Assumed background</a></li>
-  </ul></li>
-  <li><a href="#tentative-reading-schedule" id="toc-tentative-reading-schedule" class="nav-link" data-scroll-target="#tentative-reading-schedule">Tentative Reading Schedule</a>
-  <ul class="collapse">
-  <li><a href="#part-i-meaning-weeks-14" id="toc-part-i-meaning-weeks-14" class="nav-link" data-scroll-target="#part-i-meaning-weeks-14">Part I: Meaning (Weeks 1–4)</a></li>
-  <li><a href="#part-ii-methods-weeks-513" id="toc-part-ii-methods-weeks-513" class="nav-link" data-scroll-target="#part-ii-methods-weeks-513">Part II: Methods (Weeks 5–13)</a></li>
-  <li><a href="#part-iii-limits-weeks-1415" id="toc-part-iii-limits-weeks-1415" class="nav-link" data-scroll-target="#part-iii-limits-weeks-1415">Part III: Limits (Weeks 14–15)</a></li>
-  </ul></li>
-  <li><a href="#contact" id="toc-contact" class="nav-link" data-scroll-target="#contact">Contact</a></li>
-  </ul>
-</nav>
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">AI Interpretability: Meaning, Methods, and Limits</h1>
-<p class="subtitle lead">Graduate Reading Group (UC Berkeley, Spring 2026)</p>
-</div>
+<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<div class="callout callout-style-default callout-tip callout-titled" title="Interested?">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Interested?
-</div>
-</div>
-<div class="callout-body-container callout-body">
+<section id="ai-interpretability-reading-group-website" class="level1">
+<h1>AI Interpretability Reading Group Website</h1>
+<p>Quarto website for the UC Berkeley graduate reading group “AI Interpretability: Meaning, Methods, and Limits” (Spring 2026).</p>
+<section id="quick-commands" class="level2">
+<h2 class="anchored" data-anchor-id="quick-commands">Quick Commands</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Preview locally (runs in background, auto-refreshes)</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> preview</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Render site</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> render</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Publish to GitHub Pages</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="ex">quarto</span> publish gh-pages <span class="at">--no-prompt</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</section>
+<section id="project-structure" class="level2">
+<h2 class="anchored" data-anchor-id="project-structure">Project Structure</h2>
 <ul>
-<li><a href="https://forms.gle/WBqohweBJutZSQ7b7">RSVP for this reading group</a> to indicate your interest.</li>
-<li><a href="https://berkeley-ai-risk.github.io">Discover other programming</a> from Berkeley’s AI Risk group, or <a href="https://forms.gle/LnzZKT5FR5c7nGKc8">join the mailing list</a></li>
+<li><code>index.qmd</code> - Landing page with logistics, description, and reading schedule tables</li>
+<li><code>syllabus.qmd</code> - Full syllabus with paper summaries and descriptions</li>
+<li><code>_quarto.yml</code> - Quarto project configuration</li>
+<li><code>styles.css</code> - Custom CSS (UC Berkeley colors)</li>
 </ul>
-</div>
-</div>
-<section id="logistics" class="level2">
-<h2 class="anchored" data-anchor-id="logistics">Logistics</h2>
-<p><strong>Format:</strong> We will read 1–2 papers per week; one group member will lead a 45-minute presentation followed by group discussion.</p>
-<p><strong>Organizers:</strong> Will Fithian (Statistics), Wes Holliday (Philosophy), and Sean Richardson (Statistics PhD student)</p>
-<p><strong>Meeting Details:</strong> Fridays 1-2:30pm, in Latimer 120.</p>
-<p><strong>Course credit:</strong> We can enroll a limited number of students in <a href="https://classes.berkeley.edu/content/2026-spring-stat-298-003-ind-003">Stat 298 (section 3)</a> for 2 units of course credit. The requirement for course credit is regular attendance and participation, and a group project; see the <a href="./project-guidelines.html">project guidelines</a> for details.</p>
 </section>
-<section id="description" class="level2">
-<h2 class="anchored" data-anchor-id="description">Description</h2>
-<p>This is an interdisciplinary reading group organized around the question:</p>
-<blockquote class="blockquote">
-<p><strong>What kinds of interpretability claims are meaningful, useful, and reliable as AI systems become more capable and are deployed in higher-stakes contexts?</strong></p>
-</blockquote>
-<p>We will study interpretability as a <em>scientific and safety-relevant practice</em>: a collection of methods, epistemic standards, and theory-of-change assumptions aimed at gaining traction on the internal structure of modern ML systems in ways that could plausibly matter for oversight, control, and alignment. Questions include:</p>
+<section id="schedule-structure" class="level2">
+<h2 class="anchored" data-anchor-id="schedule-structure">Schedule Structure</h2>
+<p>The course has 15 weeks (Spring 2026: Jan 23 - May 8, spring recess Mar 23-27):</p>
 <ul>
-<li>Why study interpretability? How do we formulate interpretability claims rigorously, and assess evidence for and against?</li>
-<li>How are interpretability methods currently used to understand and steer state-of-the-art systems? How do we know if they are working?</li>
-<li>What are the limitations of these methods, or of the interpretability paradigm more broadly? What role can it play in reducing risks to society?</li>
+<li><strong>Part I: Meaning (Weeks 1-4)</strong> - Framing interpretability, neuroscience connections, circuits, safety strategy</li>
+<li><strong>Part II: Methods (Weeks 5-13)</strong> - ROME, steering vectors, behavioral directions, unlearning, latent knowledge, causal scrubbing, causal abstractions, SAEs, large-scale mech interp</li>
+<li><strong>Part III: Limits (Weeks 14-15)</strong> - Mesa-optimization, deceptive interpretability</li>
 </ul>
-<p>Our aim is to bring together an interdisciplinary community including perspectives from machine learning, statistics, causal inference, philosophy of science, and AI governance, and to seed new research programs.</p>
-<section id="learning-objectives" class="level3">
-<h3 class="anchored" data-anchor-id="learning-objectives">Learning objectives</h3>
-<p>By the end of this course, participants should be able to:</p>
-<ol type="1">
-<li><strong>Distinguish</strong> different senses of “interpretability” and “understanding”</li>
-<li><strong>Evaluate</strong> mechanistic claims in light of causal and robustness criteria</li>
-<li><strong>Recognize</strong> when interpretability evidence is strong, weak, or misleading</li>
-<li><strong>Articulate and critique</strong> realistic theories of change connecting interpretability to AI risk mitigation</li>
-</ol>
 </section>
-<section id="assumed-background" class="level3">
-<h3 class="anchored" data-anchor-id="assumed-background">Assumed background</h3>
-<p>We welcome broad interdisciplinary participation, but our curriculum is designed for participants with:</p>
+<section id="deployment" class="level2">
+<h2 class="anchored" data-anchor-id="deployment">Deployment</h2>
 <ul>
-<li>Comfort reading technical ML papers</li>
-<li>Interest in evaluating interpretability claims critically</li>
-<li>Background in one or more relevant fields such as statistics, philosophy, causal inference, or cognitive science</li>
+<li><strong>Main branch</strong>: Source files (<code>.qmd</code>)</li>
+<li><strong>gh-pages branch</strong>: Built site (managed by <code>quarto publish</code>)</li>
+<li><strong>Live site</strong>: https://wfithian.github.io/ai-interpretability/</li>
 </ul>
-<p>No prior interpretability research experience is required.</p>
+<p>No need to commit to deploy - <code>quarto publish gh-pages</code> handles building and pushing to the gh-pages branch directly.</p>
 </section>
-</section>
-<section id="tentative-reading-schedule" class="level2">
-<h2 class="anchored" data-anchor-id="tentative-reading-schedule">Tentative Reading Schedule</h2>
-<p>The reading list below may be revised according to participant interests.</p>
-<section id="part-i-meaning-weeks-14" class="level3">
-<h3 class="anchored" data-anchor-id="part-i-meaning-weeks-14">Part I: Meaning (Weeks 1–4)</h3>
-<p><em>What is interpretability for? What kinds of questions can it answer? How do mechanistic explanations differ from post-hoc rationalizations?</em></p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Week</th>
-<th>Date</th>
-<th>Topic</th>
-<th>Reading</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>1</td>
-<td>Jan 23</td>
-<td>Interpretability and AI Safety</td>
-<td><a href="https://arxiv.org/html/2404.14082v3">Mechanistic Interpretability and AI Safety: A Review</a> — Bereska &amp; Gavves (2024), sections 1-2 and 6-8 (secs 3-5 optional). Optional: <a href="https://www.darioamodei.com/post/the-urgency-of-interpretability">The Urgency of Interpretability</a> — Amodei (2025)</td>
-</tr>
-<tr class="even">
-<td>2</td>
-<td>Jan 30</td>
-<td>Interpretability in Neuroscience</td>
-<td><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12021422/">Crafting Interpretable Embeddings for Language Neuroscience by Asking LLMs Questions</a> — Benara et al.&nbsp;(2025) + <a href="https://direct.mit.edu/nol/article/5/1/64/113632/Predictive-Coding-or-Just-Feature-Discovery-An">Predictive Coding or Just Feature Discovery?</a> — Antonello &amp; Huth (2025)</td>
-</tr>
-<tr class="odd">
-<td>3</td>
-<td>Feb 6</td>
-<td>Mechanistic Interpretability</td>
-<td><a href="https://distill.pub/2020/circuits/zoom-in">Zoom In: Circuits</a> — Olah et al.&nbsp;(2020)</td>
-</tr>
-<tr class="even">
-<td>4</td>
-<td>Feb 13</td>
-<td>Interpretability as Safety Strategy</td>
-<td><a href="https://www.alignmentforum.org/posts/StENzDcD3kpfGJssR/a-pragmatic-vision-for-interpretability">A Pragmatic Vision for Interpretability</a> + <a href="https://www.alignmentforum.org/posts/MnkeepcGirnJn736j/how-can-interpretability-researchers-help-agi-go-well">How Can Interpretability Researchers Help AGI Go Well?</a> — Nanda (2025)</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="part-ii-methods-weeks-513" class="level3">
-<h3 class="anchored" data-anchor-id="part-ii-methods-weeks-513">Part II: Methods (Weeks 5–13)</h3>
-<p><em>What can interpretability methods actually do with real models? When does an intervention support an explanatory claim, and when is it merely a control knob?</em></p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Week</th>
-<th>Date</th>
-<th>Topic</th>
-<th>Reading</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>5</td>
-<td>Feb 20</td>
-<td>Causal Intervention (ROME)</td>
-<td><a href="https://arxiv.org/abs/2202.05262">Locating and Editing Factual Associations in GPT</a> — Meng et al.&nbsp;(NeurIPS 2022) + <a href="https://arxiv.org/pdf/2404.15255">How to use and interpret activation patching</a> — Heimersheim &amp; Nanda (2024)</td>
-</tr>
-<tr class="even">
-<td>6</td>
-<td>Feb 27</td>
-<td>Steering Vectors</td>
-<td><a href="https://arxiv.org/abs/2308.10248">Steering Language Models With Activation Engineering</a> — Turner et al.&nbsp;(2023)</td>
-</tr>
-<tr class="odd">
-<td>7</td>
-<td>Mar 6</td>
-<td>Behavioral Directions</td>
-<td><a href="https://arxiv.org/abs/2406.11717">Refusal in LLMs Is Mediated by a Single Direction</a> — Arditi et al.&nbsp;(2024) + <a href="https://www.anthropic.com/research/persona-vectors">Persona Vectors</a> — Anthropic (2025)</td>
-</tr>
-<tr class="even">
-<td>8</td>
-<td>Mar 13</td>
-<td>Machine Unlearning</td>
-<td><a href="https://arxiv.org/abs/2401.06121">TOFU: A Task of Fictitious Unlearning for LLMs</a> — Maini et al.&nbsp;(2024)</td>
-</tr>
-<tr class="odd">
-<td>9</td>
-<td>Mar 20</td>
-<td>Latent Knowledge</td>
-<td><a href="https://arxiv.org/abs/2212.03827">Discovering Latent Knowledge in Language Models Without Supervision</a> — Burns et al.&nbsp;(ICLR 2023)</td>
-</tr>
-<tr class="even">
-<td></td>
-<td><em>Mar 23–27</em></td>
-<td><em>Spring recess</em></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>10</td>
-<td>Apr 3</td>
-<td>Causal Scrubbing</td>
-<td><a href="https://www.alignmentforum.org/posts/JvZhhzycHu2Yd57RN/causal-scrubbing-a-method-for-rigorously-testing">Causal Scrubbing: Rigorously Testing Mechanistic Hypotheses</a> — Chan et al.&nbsp;(2022)</td>
-</tr>
-<tr class="even">
-<td>11</td>
-<td>Apr 10</td>
-<td>Causal Abstractions</td>
-<td><a href="https://arxiv.org/abs/2301.04709">Causal Abstraction: A Theoretical Foundation for Mechanistic Interpretability</a> — Geiger et al.&nbsp;(2023–2025)</td>
-</tr>
-<tr class="odd">
-<td>12</td>
-<td>Apr 17</td>
-<td>Sparse Auto-encoders</td>
-<td><a href="https://transformer-circuits.pub/2023/monosemantic-features">Towards Monosemanticity: Decomposing Language Models With Dictionary Learning</a></td>
-</tr>
-<tr class="even">
-<td>13</td>
-<td>Apr 24</td>
-<td>Large-Scale Mechanistic Interp</td>
-<td><a href="https://www.anthropic.com/research/biology-of-a-large-language-model">On the Biology of a Large Language Model</a> — Anthropic (2025)</td>
-</tr>
-</tbody>
-</table>
-</section>
-<section id="part-iii-limits-weeks-1415" class="level3">
-<h3 class="anchored" data-anchor-id="part-iii-limits-weeks-1415">Part III: Limits (Weeks 14–15)</h3>
-<p><em>Given its limits, what role can interpretability play in reducing catastrophic risk?</em></p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th>Week</th>
-<th>Dates</th>
-<th>Topic</th>
-<th>Reading</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>14</td>
-<td>May 1</td>
-<td>Mesa-Optimization</td>
-<td><a href="https://arxiv.org/abs/1906.01820">Risks from Learned Optimization in Advanced ML Systems</a> — Hubinger et al.&nbsp;(2019)</td>
-</tr>
-<tr class="even">
-<td>15</td>
-<td>May 8</td>
-<td>Deceptive Interpretability</td>
-<td><a href="https://arxiv.org/abs/2504.07831">Deceptive Automated Interpretability: LMs Coordinating to Fool Oversight</a> — Lermen et al.&nbsp;(2025)</td>
-</tr>
-</tbody>
-</table>
-<p>See the <a href="./syllabus.html">full syllabus</a> for paper summaries and additional context.</p>
-<hr>
-</section>
-</section>
-<section id="contact" class="level2">
-<h2 class="anchored" data-anchor-id="contact">Contact</h2>
-<p>Questions? Contact Will Fithian (<a href="mailto:wfithian@berkeley.edu">wfithian@berkeley.edu</a>).</p>
+<section id="conventions" class="level2">
+<h2 class="anchored" data-anchor-id="conventions">Conventions</h2>
+<ul>
+<li>Dates are single days (Fridays) for weekly meetings, e.g., “Jan 23” not “Jan 20-23”</li>
+<li>Meeting time: Fridays 1-2:30pm in Latimer 120</li>
+<li>Paper summaries in syllabus.qmd are one sentence in italics</li>
+<li>Reading schedule tables in index.qmd use format: Week | Date | Topic | Reading</li>
+</ul>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

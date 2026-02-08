@@ -1,5 +1,145 @@
 [
   {
+    "objectID": "claude.html",
+    "href": "claude.html",
+    "title": "AI Interpretability Reading Group Website",
+    "section": "",
+    "text": "Quarto website for the UC Berkeley graduate reading group “AI Interpretability: Meaning, Methods, and Limits” (Spring 2026).\n\n\n# Preview locally (runs in background, auto-refreshes)\nquarto preview\n\n# Render site\nquarto render\n\n# Publish to GitHub Pages\nquarto publish gh-pages --no-prompt\n\n\n\n\nindex.qmd - Landing page with logistics, description, and reading schedule tables\nsyllabus.qmd - Full syllabus with paper summaries and descriptions\n_quarto.yml - Quarto project configuration\nstyles.css - Custom CSS (UC Berkeley colors)\n\n\n\n\nThe course has 15 weeks (Spring 2026: Jan 23 - May 8, spring recess Mar 23-27):\n\nPart I: Meaning (Weeks 1-4) - Framing interpretability, neuroscience connections, circuits, safety strategy\nPart II: Methods (Weeks 5-13) - ROME, steering vectors, behavioral directions, unlearning, latent knowledge, causal scrubbing, causal abstractions, SAEs, large-scale mech interp\nPart III: Limits (Weeks 14-15) - Mesa-optimization, deceptive interpretability\n\n\n\n\n\nMain branch: Source files (.qmd)\ngh-pages branch: Built site (managed by quarto publish)\nLive site: https://wfithian.github.io/ai-interpretability/\n\nNo need to commit to deploy - quarto publish gh-pages handles building and pushing to the gh-pages branch directly.\n\n\n\n\nDates are single days (Fridays) for weekly meetings, e.g., “Jan 23” not “Jan 20-23”\nMeeting time: Fridays 1-2:30pm in Latimer 120\nPaper summaries in syllabus.qmd are one sentence in italics\nReading schedule tables in index.qmd use format: Week | Date | Topic | Reading"
+  },
+  {
+    "objectID": "claude.html#quick-commands",
+    "href": "claude.html#quick-commands",
+    "title": "AI Interpretability Reading Group Website",
+    "section": "",
+    "text": "# Preview locally (runs in background, auto-refreshes)\nquarto preview\n\n# Render site\nquarto render\n\n# Publish to GitHub Pages\nquarto publish gh-pages --no-prompt"
+  },
+  {
+    "objectID": "claude.html#project-structure",
+    "href": "claude.html#project-structure",
+    "title": "AI Interpretability Reading Group Website",
+    "section": "",
+    "text": "index.qmd - Landing page with logistics, description, and reading schedule tables\nsyllabus.qmd - Full syllabus with paper summaries and descriptions\n_quarto.yml - Quarto project configuration\nstyles.css - Custom CSS (UC Berkeley colors)"
+  },
+  {
+    "objectID": "claude.html#schedule-structure",
+    "href": "claude.html#schedule-structure",
+    "title": "AI Interpretability Reading Group Website",
+    "section": "",
+    "text": "The course has 15 weeks (Spring 2026: Jan 23 - May 8, spring recess Mar 23-27):\n\nPart I: Meaning (Weeks 1-4) - Framing interpretability, neuroscience connections, circuits, safety strategy\nPart II: Methods (Weeks 5-13) - ROME, steering vectors, behavioral directions, unlearning, latent knowledge, causal scrubbing, causal abstractions, SAEs, large-scale mech interp\nPart III: Limits (Weeks 14-15) - Mesa-optimization, deceptive interpretability"
+  },
+  {
+    "objectID": "claude.html#deployment",
+    "href": "claude.html#deployment",
+    "title": "AI Interpretability Reading Group Website",
+    "section": "",
+    "text": "Main branch: Source files (.qmd)\ngh-pages branch: Built site (managed by quarto publish)\nLive site: https://wfithian.github.io/ai-interpretability/\n\nNo need to commit to deploy - quarto publish gh-pages handles building and pushing to the gh-pages branch directly."
+  },
+  {
+    "objectID": "claude.html#conventions",
+    "href": "claude.html#conventions",
+    "title": "AI Interpretability Reading Group Website",
+    "section": "",
+    "text": "Dates are single days (Fridays) for weekly meetings, e.g., “Jan 23” not “Jan 20-23”\nMeeting time: Fridays 1-2:30pm in Latimer 120\nPaper summaries in syllabus.qmd are one sentence in italics\nReading schedule tables in index.qmd use format: Week | Date | Topic | Reading"
+  },
+  {
+    "objectID": "project-guidelines.html",
+    "href": "project-guidelines.html",
+    "title": "AI Interpretability: Meaning, Methods, and Limits",
+    "section": "",
+    "text": "The project is an opportunity to pursue a question that emerges from our discussions. It can be empirical, theoretical, or conceptual—what matters is that it engages seriously with the interpretability landscape and produces something that could seed further inquiry."
+  },
+  {
+    "objectID": "project-guidelines.html#purpose",
+    "href": "project-guidelines.html#purpose",
+    "title": "AI Interpretability: Meaning, Methods, and Limits",
+    "section": "",
+    "text": "The project is an opportunity to pursue a question that emerges from our discussions. It can be empirical, theoretical, or conceptual—what matters is that it engages seriously with the interpretability landscape and produces something that could seed further inquiry."
+  },
+  {
+    "objectID": "project-guidelines.html#teams",
+    "href": "project-guidelines.html#teams",
+    "title": "AI Interpretability: Meaning, Methods, and Limits",
+    "section": "Teams",
+    "text": "Teams\nForm groups of 2-4 people. We strongly encourage interdisciplinary teams combining perspectives from:\n\nNatural sciences (neuroscience, cognitive science, biology)\nFormal sciences (CS, statistics, mathematics)\nHumanities and social sciences (philosophy, sociology, policy)\n\nMixing disciplines is part of the pedagogical goal. Some of the most interesting questions sit at boundaries between fields."
+  },
+  {
+    "objectID": "project-guidelines.html#scope",
+    "href": "project-guidelines.html#scope",
+    "title": "AI Interpretability: Meaning, Methods, and Limits",
+    "section": "Scope",
+    "text": "Scope\nProjects should connect to AI interpretability broadly construed. You might:\n\nReplicate and extend a method from the readings\nDevelop a theoretical framework or formalize an intuition\nDesign an empirical study testing an interpretability claim\nAnalyze the epistemic status of a class of methods\nPropose and prototype a new technique\nCritically evaluate a theory of change linking interpretability to safety\n\nAmbitious but incomplete work is fine. We’d rather see an interesting question partially answered than a boring question fully resolved."
+  },
+  {
+    "objectID": "project-guidelines.html#finding-project-ideas",
+    "href": "project-guidelines.html#finding-project-ideas",
+    "title": "AI Interpretability: Meaning, Methods, and Limits",
+    "section": "Finding Project Ideas",
+    "text": "Finding Project Ideas\nBeyond questions that arise from our readings and discussions, two resources may help spark ideas:\n\nPrinceton Interpretability Research Highlights — A curated collection of recent interpretability research organized by theme.\n“Open Problems in Mechanistic Interpretability” — A systematic survey of open questions in the field, useful for identifying tractable problems at various levels of difficulty.\n\nYou’re welcome to draw from these or pursue something entirely different."
+  },
+  {
+    "objectID": "project-guidelines.html#timeline",
+    "href": "project-guidelines.html#timeline",
+    "title": "AI Interpretability: Meaning, Methods, and Limits",
+    "section": "Timeline",
+    "text": "Timeline\nWeek 9 (March 20): Submit a one-page project proposal containing:\n\nTeam members and their disciplinary backgrounds\nThe question or problem you’re addressing\nWhy it matters (connection to course themes)\nProposed approach\nWhat success would look like\n\nRRR Week (May 11-15): Final deliverables due and poster session."
+  },
+  {
+    "objectID": "project-guidelines.html#deliverables",
+    "href": "project-guidelines.html#deliverables",
+    "title": "AI Interpretability: Meaning, Methods, and Limits",
+    "section": "Deliverables",
+    "text": "Deliverables\n\nPoster for public presentation during RRR week, open to the Berkeley community.\nOnline artifact in one of the following formats (your choice):\n\nShort writeup (4-8 pages)\nDocumented code repository with README\nBlog post suitable for a technical audience\nOther format by approval\n\n\nThe artifact should allow someone outside the group to understand what you did and why it matters."
+  },
+  {
+    "objectID": "project-guidelines.html#what-were-looking-for",
+    "href": "project-guidelines.html#what-were-looking-for",
+    "title": "AI Interpretability: Meaning, Methods, and Limits",
+    "section": "What We’re Looking For",
+    "text": "What We’re Looking For\nWe’re not expecting publication-ready work. We want to see evidence of serious engagement: a well-posed question, a thoughtful approach, and honest reflection on what you learned. A project that tackles something hard and partially succeeds is more valuable than one that answers a trivial question completely."
+  },
+  {
+    "objectID": "project-guidelines.html#finding-collaborators",
+    "href": "project-guidelines.html#finding-collaborators",
+    "title": "AI Interpretability: Meaning, Methods, and Limits",
+    "section": "Finding Collaborators",
+    "text": "Finding Collaborators\nWe’ll facilitate team formation during Weeks 4-5. If you have a project idea but need collaborators, or want to join a team but don’t have an idea yet, we’ll create a shared space to match people."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "AI Interpretability: Meaning, Methods, and Limits",
+    "section": "",
+    "text": "Interested?\n\n\n\n\nRSVP for this reading group to indicate your interest.\nDiscover other programming from Berkeley’s AI Risk group, or join the mailing list"
+  },
+  {
+    "objectID": "index.html#logistics",
+    "href": "index.html#logistics",
+    "title": "AI Interpretability: Meaning, Methods, and Limits",
+    "section": "Logistics",
+    "text": "Logistics\nFormat: We will read 1–2 papers per week; one group member will lead a 45-minute presentation followed by group discussion.\nOrganizers: Will Fithian (Statistics), Wes Holliday (Philosophy), and Sean Richardson (Statistics PhD student)\nMeeting Details: Fridays 1-2:30pm, in Latimer 120.\nCourse credit: We can enroll a limited number of students in Stat 298 (section 3) for 2 units of course credit. The requirement for course credit is regular attendance and participation, and a group project; see the project guidelines for details."
+  },
+  {
+    "objectID": "index.html#description",
+    "href": "index.html#description",
+    "title": "AI Interpretability: Meaning, Methods, and Limits",
+    "section": "Description",
+    "text": "Description\nThis is an interdisciplinary reading group organized around the question:\n\nWhat kinds of interpretability claims are meaningful, useful, and reliable as AI systems become more capable and are deployed in higher-stakes contexts?\n\nWe will study interpretability as a scientific and safety-relevant practice: a collection of methods, epistemic standards, and theory-of-change assumptions aimed at gaining traction on the internal structure of modern ML systems in ways that could plausibly matter for oversight, control, and alignment. Questions include:\n\nWhy study interpretability? How do we formulate interpretability claims rigorously, and assess evidence for and against?\nHow are interpretability methods currently used to understand and steer state-of-the-art systems? How do we know if they are working?\nWhat are the limitations of these methods, or of the interpretability paradigm more broadly? What role can it play in reducing risks to society?\n\nOur aim is to bring together an interdisciplinary community including perspectives from machine learning, statistics, causal inference, philosophy of science, and AI governance, and to seed new research programs.\n\nLearning objectives\nBy the end of this course, participants should be able to:\n\nDistinguish different senses of “interpretability” and “understanding”\nEvaluate mechanistic claims in light of causal and robustness criteria\nRecognize when interpretability evidence is strong, weak, or misleading\nArticulate and critique realistic theories of change connecting interpretability to AI risk mitigation\n\n\n\nAssumed background\nWe welcome broad interdisciplinary participation, but our curriculum is designed for participants with:\n\nComfort reading technical ML papers\nInterest in evaluating interpretability claims critically\nBackground in one or more relevant fields such as statistics, philosophy, causal inference, or cognitive science\n\nNo prior interpretability research experience is required."
+  },
+  {
+    "objectID": "index.html#tentative-reading-schedule",
+    "href": "index.html#tentative-reading-schedule",
+    "title": "AI Interpretability: Meaning, Methods, and Limits",
+    "section": "Tentative Reading Schedule",
+    "text": "Tentative Reading Schedule\nThe reading list below may be revised according to participant interests.\n\nPart I: Meaning (Weeks 1–4)\nWhat is interpretability for? What kinds of questions can it answer? How do mechanistic explanations differ from post-hoc rationalizations?\n\n\n\nWeek\nDate\nTopic\nReading\n\n\n\n\n1\nJan 23\nInterpretability and AI Safety\nMechanistic Interpretability and AI Safety: A Review — Bereska & Gavves (2024), sections 1-2 and 6-8 (secs 3-5 optional). Optional: The Urgency of Interpretability — Amodei (2025)\n\n\n2\nJan 30\nInterpretability in Neuroscience\nCrafting Interpretable Embeddings for Language Neuroscience by Asking LLMs Questions — Benara et al. (2025) + Predictive Coding or Just Feature Discovery? — Antonello & Huth (2025)\n\n\n3\nFeb 6\nMechanistic Interpretability\nZoom In: Circuits — Olah et al. (2020)\n\n\n4\nFeb 13\nInterpretability as Safety Strategy\nA Pragmatic Vision for Interpretability + How Can Interpretability Researchers Help AGI Go Well? — Nanda (2025)\n\n\n\n\n\nPart II: Methods (Weeks 5–13)\nWhat can interpretability methods actually do with real models? When does an intervention support an explanatory claim, and when is it merely a control knob?\n\n\n\nWeek\nDate\nTopic\nReading\n\n\n\n\n5\nFeb 20\nCausal Intervention (ROME)\nLocating and Editing Factual Associations in GPT — Meng et al. (NeurIPS 2022) + How to use and interpret activation patching — Heimersheim & Nanda (2024)\n\n\n6\nFeb 27\nSteering Vectors\nSteering Language Models With Activation Engineering — Turner et al. (2023)\n\n\n7\nMar 6\nBehavioral Directions\nRefusal in LLMs Is Mediated by a Single Direction — Arditi et al. (2024) + Persona Vectors — Anthropic (2025)\n\n\n8\nMar 13\nMachine Unlearning\nTOFU: A Task of Fictitious Unlearning for LLMs — Maini et al. (2024)\n\n\n9\nMar 20\nLatent Knowledge\nDiscovering Latent Knowledge in Language Models Without Supervision — Burns et al. (ICLR 2023)\n\n\n\nMar 23–27\nSpring recess\n\n\n\n10\nApr 3\nCausal Scrubbing\nCausal Scrubbing: Rigorously Testing Mechanistic Hypotheses — Chan et al. (2022)\n\n\n11\nApr 10\nCausal Abstractions\nCausal Abstraction: A Theoretical Foundation for Mechanistic Interpretability — Geiger et al. (2023–2025)\n\n\n12\nApr 17\nSparse Auto-encoders\nTowards Monosemanticity: Decomposing Language Models With Dictionary Learning\n\n\n13\nApr 24\nLarge-Scale Mechanistic Interp\nOn the Biology of a Large Language Model — Anthropic (2025)\n\n\n\n\n\nPart III: Limits (Weeks 14–15)\nGiven its limits, what role can interpretability play in reducing catastrophic risk?\n\n\n\nWeek\nDates\nTopic\nReading\n\n\n\n\n14\nMay 1\nMesa-Optimization\nRisks from Learned Optimization in Advanced ML Systems — Hubinger et al. (2019)\n\n\n15\nMay 8\nDeceptive Interpretability\nDeceptive Automated Interpretability: LMs Coordinating to Fool Oversight — Lermen et al. (2025)\n\n\n\nSee the full syllabus for paper summaries and additional context."
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "AI Interpretability: Meaning, Methods, and Limits",
+    "section": "Contact",
+    "text": "Contact\nQuestions? Contact Will Fithian (wfithian@berkeley.edu)."
+  },
+  {
     "objectID": "syllabus.html",
     "href": "syllabus.html",
     "title": "AI Interpretability: Meaning, Methods, and Limits",
@@ -40,40 +180,5 @@
     "title": "AI Interpretability: Meaning, Methods, and Limits",
     "section": "Expectations and Participation",
     "text": "Expectations and Participation\n\nPreparation\n\nComplete the assigned reading before each session\nCome prepared with questions, critiques, or connections to other work\n\n\n\nDiscussion\n\nActive participation is expected; the value of the group depends on collective engagement\nDiscussions will focus on: What does this paper claim? How do we evaluate those claims? What are the implications for AI safety?"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "AI Interpretability: Meaning, Methods, and Limits",
-    "section": "",
-    "text": "Interested?\n\n\n\n\nRSVP for this reading group to indicate your interest.\nDiscover other programming from Berkeley’s AI Risk group, or join the mailing list"
-  },
-  {
-    "objectID": "index.html#logistics",
-    "href": "index.html#logistics",
-    "title": "AI Interpretability: Meaning, Methods, and Limits",
-    "section": "Logistics",
-    "text": "Logistics\nFormat: We will read 1–2 papers per week; one group member will lead a 45-minute presentation followed by group discussion.\nOrganizers: Will Fithian (Statistics), Wes Holliday (Philosophy), and Sean Richardson (Statistics PhD student)\nMeeting Details: Fridays 1-2:30pm, in Latimer 120.\nCourse credit: We can enroll a limited number of students in Stat 298 (section 3) for 2 units of course credit. The requirement for course credit is regular attendance plus presenting a paper at one session. The course listing will appear in the course catalog within a few days."
-  },
-  {
-    "objectID": "index.html#description",
-    "href": "index.html#description",
-    "title": "AI Interpretability: Meaning, Methods, and Limits",
-    "section": "Description",
-    "text": "Description\nThis is an interdisciplinary reading group organized around the question:\n\nWhat kinds of interpretability claims are meaningful, useful, and reliable as AI systems become more capable and are deployed in higher-stakes contexts?\n\nWe will study interpretability as a scientific and safety-relevant practice: a collection of methods, epistemic standards, and theory-of-change assumptions aimed at gaining traction on the internal structure of modern ML systems in ways that could plausibly matter for oversight, control, and alignment. Questions include:\n\nWhy study interpretability? How do we formulate interpretability claims rigorously, and assess evidence for and against?\nHow are interpretability methods currently used to understand and steer state-of-the-art systems? How do we know if they are working?\nWhat are the limitations of these methods, or of the interpretability paradigm more broadly? What role can it play in reducing risks to society?\n\nOur aim is to bring together an interdisciplinary community including perspectives from machine learning, statistics, causal inference, philosophy of science, and AI governance, and to seed new research programs.\n\nLearning objectives\nBy the end of this course, participants should be able to:\n\nDistinguish different senses of “interpretability” and “understanding”\nEvaluate mechanistic claims in light of causal and robustness criteria\nRecognize when interpretability evidence is strong, weak, or misleading\nArticulate and critique realistic theories of change connecting interpretability to AI risk mitigation\n\n\n\nAssumed background\nWe welcome broad interdisciplinary participation, but our curriculum is designed for participants with:\n\nComfort reading technical ML papers\nInterest in evaluating interpretability claims critically\nBackground in one or more relevant fields such as statistics, philosophy, causal inference, or cognitive science\n\nNo prior interpretability research experience is required."
-  },
-  {
-    "objectID": "index.html#tentative-reading-schedule",
-    "href": "index.html#tentative-reading-schedule",
-    "title": "AI Interpretability: Meaning, Methods, and Limits",
-    "section": "Tentative Reading Schedule",
-    "text": "Tentative Reading Schedule\nThe reading list below may be revised according to participant interests.\n\nPart I: Meaning (Weeks 1–4)\nWhat is interpretability for? What kinds of questions can it answer? How do mechanistic explanations differ from post-hoc rationalizations?\n\n\n\nWeek\nDate\nTopic\nReading\n\n\n\n\n1\nJan 23\nInterpretability and AI Safety\nMechanistic Interpretability and AI Safety: A Review — Bereska & Gavves (2024), sections 1-2 and 6-8 (secs 3-5 optional). Optional: The Urgency of Interpretability — Amodei (2025)\n\n\n2\nJan 30\nInterpretability in Neuroscience\nCrafting Interpretable Embeddings for Language Neuroscience by Asking LLMs Questions — Benara et al. (2025) + Predictive Coding or Just Feature Discovery? — Antonello & Huth (2025)\n\n\n3\nFeb 6\nMechanistic Interpretability\nZoom In: Circuits — Olah et al. (2020)\n\n\n4\nFeb 13\nInterpretability as Safety Strategy\nA Pragmatic Vision for Interpretability + How Can Interpretability Researchers Help AGI Go Well? — Nanda (2025)\n\n\n\n\n\nPart II: Methods (Weeks 5–13)\nWhat can interpretability methods actually do with real models? When does an intervention support an explanatory claim, and when is it merely a control knob?\n\n\n\nWeek\nDate\nTopic\nReading\n\n\n\n\n5\nFeb 20\nCausal Intervention (ROME)\nLocating and Editing Factual Associations in GPT — Meng et al. (NeurIPS 2022) + How to use and interpret activation patching — Heimersheim & Nanda (2024)\n\n\n6\nFeb 27\nSteering Vectors\nSteering Language Models With Activation Engineering — Turner et al. (2023)\n\n\n7\nMar 6\nBehavioral Directions\nRefusal in LLMs Is Mediated by a Single Direction — Arditi et al. (2024) + Persona Vectors — Anthropic (2025)\n\n\n8\nMar 13\nMachine Unlearning\nTOFU: A Task of Fictitious Unlearning for LLMs — Maini et al. (2024)\n\n\n9\nMar 20\nLatent Knowledge\nDiscovering Latent Knowledge in Language Models Without Supervision — Burns et al. (ICLR 2023)\n\n\n\nMar 23–27\nSpring recess\n\n\n\n10\nApr 3\nCausal Scrubbing\nCausal Scrubbing: Rigorously Testing Mechanistic Hypotheses — Chan et al. (2022)\n\n\n11\nApr 10\nCausal Abstractions\nCausal Abstraction: A Theoretical Foundation for Mechanistic Interpretability — Geiger et al. (2023–2025)\n\n\n12\nApr 17\nSparse Auto-encoders\nTowards Monosemanticity: Decomposing Language Models With Dictionary Learning\n\n\n13\nApr 24\nLarge-Scale Mechanistic Interp\nOn the Biology of a Large Language Model — Anthropic (2025)\n\n\n\n\n\nPart III: Limits (Weeks 14–15)\nGiven its limits, what role can interpretability play in reducing catastrophic risk?\n\n\n\nWeek\nDates\nTopic\nReading\n\n\n\n\n14\nMay 1\nMesa-Optimization\nRisks from Learned Optimization in Advanced ML Systems — Hubinger et al. (2019)\n\n\n15\nMay 8\nDeceptive Interpretability\nDeceptive Automated Interpretability: LMs Coordinating to Fool Oversight — Lermen et al. (2025)\n\n\n\nSee the full syllabus for paper summaries and additional context."
-  },
-  {
-    "objectID": "index.html#contact",
-    "href": "index.html#contact",
-    "title": "AI Interpretability: Meaning, Methods, and Limits",
-    "section": "Contact",
-    "text": "Contact\nQuestions? Contact Will Fithian (wfithian@berkeley.edu)."
   }
 ]

@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://wfithian.github.io/ai-interpretability/syllabus.html</loc>
-    <lastmod>2026-01-21T08:14:51.613Z</lastmod>
+    <loc>https://wfithian.github.io/ai-interpretability/claude.html</loc>
+    <lastmod>2026-01-26T20:24:54.614Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wfithian.github.io/ai-interpretability/project-guidelines.html</loc>
+    <lastmod>2026-02-08T12:02:47.248Z</lastmod>
   </url>
   <url>
     <loc>https://wfithian.github.io/ai-interpretability/index.html</loc>
-    <lastmod>2026-01-21T08:05:46.826Z</lastmod>
+    <lastmod>2026-02-08T12:05:01.377Z</lastmod>
+  </url>
+  <url>
+    <loc>https://wfithian.github.io/ai-interpretability/syllabus.html</loc>
+    <lastmod>2026-01-21T08:14:51.613Z</lastmod>
   </url>
 </urlset>
