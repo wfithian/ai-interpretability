@@ -18,13 +18,7 @@ The project is an opportunity to pursue a question that emerges from our discuss
 
 ## Teams
 
-Form groups of 2-4 people. We strongly encourage interdisciplinary teams combining perspectives from:
-
-- Natural sciences (neuroscience, cognitive science, biology)
-- Formal sciences (CS, statistics, mathematics)
-- Humanities and social sciences (philosophy, sociology, policy)
-
-Mixing disciplines is part of the pedagogical goal. Some of the most interesting questions sit at boundaries between fields.
+Form groups of 2-4 people. If possible, try to combine different perspectives and areas of expertise within your team.
 
 ## Scope
 
