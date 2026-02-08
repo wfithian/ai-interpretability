@@ -25,7 +25,7 @@ format:
 
 **Meeting Details:** Fridays 1-2:30pm, in Latimer 120.
 
-**Course credit:** We can enroll a limited number of students in [Stat 298 (section 3)](https://classes.berkeley.edu/content/2026-spring-stat-298-003-ind-003) for 2 units of course credit. The requirement for course credit is regular attendance plus presenting a paper at one session. The course listing will appear in the course catalog within a few days.
+**Course credit:** We can enroll a limited number of students in [Stat 298 (section 3)](https://classes.berkeley.edu/content/2026-spring-stat-298-003-ind-003) for 2 units of course credit. The requirement for course credit is regular attendance and participation, and a group project; see the [project guidelines](project-guidelines.qmd) for details.
 
 
 ## Description

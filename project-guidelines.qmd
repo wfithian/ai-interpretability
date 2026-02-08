@@ -1,0 +1,82 @@
+---
+title: "AI Interpretability: Meaning, Methods, and Limits"
+subtitle: "Graduate Reading Group (UC Berkeley, Spring 2026)"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: left
+    toc-title: "Contents"
+    toc-depth: 3
+    page-layout: article
+    css: styles.css
+---
+
+## Purpose
+
+The project is an opportunity to pursue a question that emerges from our discussions. It can be empirical, theoretical, or conceptual—what matters is that it engages seriously with the interpretability landscape and produces something that could seed further inquiry.
+
+## Teams
+
+Form groups of 2-4 people. We strongly encourage interdisciplinary teams combining perspectives from:
+
+- Natural sciences (neuroscience, cognitive science, biology)
+- Formal sciences (CS, statistics, mathematics)
+- Humanities and social sciences (philosophy, sociology, policy)
+
+Mixing disciplines is part of the pedagogical goal. Some of the most interesting questions sit at boundaries between fields.
+
+## Scope
+
+Projects should connect to AI interpretability broadly construed. You might:
+
+- Replicate and extend a method from the readings
+- Develop a theoretical framework or formalize an intuition
+- Design an empirical study testing an interpretability claim
+- Analyze the epistemic status of a class of methods
+- Propose and prototype a new technique
+- Critically evaluate a theory of change linking interpretability to safety
+
+Ambitious but incomplete work is fine. We'd rather see an interesting question partially answered than a boring question fully resolved.
+
+## Finding Project Ideas
+
+Beyond questions that arise from our readings and discussions, two resources may help spark ideas:
+
+- [Princeton Interpretability Research Highlights](https://princint.ai/research-highlights/) — A curated collection of recent interpretability research organized by theme.
+
+- ["Open Problems in Mechanistic Interpretability"](https://arxiv.org/pdf/2501.16496) — A systematic survey of open questions in the field, useful for identifying tractable problems at various levels of difficulty.
+
+You're welcome to draw from these or pursue something entirely different.
+
+## Timeline
+
+**Week 9 (March 20):** Submit a one-page project proposal containing:
+
+- Team members and their disciplinary backgrounds
+- The question or problem you're addressing
+- Why it matters (connection to course themes)
+- Proposed approach
+- What success would look like
+
+**RRR Week (May 11-15):** Final deliverables due and poster session.
+
+## Deliverables
+
+1. **Poster** for public presentation during RRR week, open to the Berkeley community.
+
+2. **Online artifact** in one of the following formats (your choice):
+   - Short writeup (4-8 pages)
+   - Documented code repository with README
+   - Blog post suitable for a technical audience
+   - Other format by approval
+
+The artifact should allow someone outside the group to understand what you did and why it matters.
+
+## What We're Looking For
+
+We're not expecting publication-ready work. We want to see evidence of serious engagement: a well-posed question, a thoughtful approach, and honest reflection on what you learned. A project that tackles something hard and partially succeeds is more valuable than one that answers a trivial question completely.
+
+## Finding Collaborators
+
+We'll facilitate team formation during Weeks 4-5. If you have a project idea but need collaborators, or want to join a team but don't have an idea yet, we'll create a shared space to match people.

@@ -9,6 +9,8 @@ website:
         text: Home
       - href: syllabus.qmd
         text: Syllabus
+      - href: project-guidelines.qmd
+        text: Project
 
 format:
   html:
